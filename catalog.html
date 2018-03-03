@@ -3,28 +3,100 @@
 <head>
 	<title>Проект Нёрдс, Страница Каталог</title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="#">
 </head>
 
 <body>
-     <header class="catalog-main-header">
-     	<nav class="catalog-main-navigation">
-     		<div class="catalog-header-logo">
+     <header class="main-header">
+     	<nav class="main-navigation">
+     		<div class="main-header-logo">
                 <!-- Здесь будет Логотип -->
-     		    <img src="http://placehold.it/150x100" alt="Логотип Нёрдс">
+            <a class="main-header-logo" href="index.html">
+     		    <img src="http://placehold.it/150x100" width="#" height="#" alt="Логотип Нёрдс">
+            </a>
      	    </div>
      		
-     		    <ul class="catalog-site-navigation">
+     		    <ul class="main-site-navigation">
      			    <li><a href="studio.html">Студия</a></li>
      			    <li><a href="client.html">Клиент</a></li>
-     			    <li><a href="catalog.html">Магазин</a></li>
+     			    <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
      			    <li><a href="contacts.html">Контакты</a></li>
      		    </ul>
-     		    <ul class="catalog-basket-navigation">
-     		    	<li class="catalog-basket-link">Корзина</li>
+
+     		    <ul class="basket">
+     		    	<li class="basket-link">Корзина</li>
      		    </ul>
         </nav>
-
-            <h1>Магазин готовых шаблонов</h1>
-            
+                <h1>Магазин готовых шаблонов</h1>   
      </header>
+
+
+     <main class="container">
+                <h1 class="visually-hidden">Контент</h1>
+        <article class="main-content">
+        <section class="filters">
+                <h2 class="visually-hidden">Фильтр товаров</h2>
+                <h3>Стоимость:</h3>
+        <!-- Здесь будет форма -->
+                <a class="btn btn-show" href="#">Показать</a>
+        </section>
+
+        <section class="layout">
+                <h3>Сортировать:</h3>
+               <ul class="list-of-layout">
+                   <li><a href="sedona.html">SEDONA</a></li>
+                   <li><a href="pink.html">PINK</a></li>
+                   <li><a href="borodinski.html">BORODINSKI</a></li>
+                   <li><a href="mishka.html">MISHKA</a></li>
+                   <li><a href="study.html">STUDY</a></li>
+                   <li><a href="kvas.html">KVAS</a></li>
+               </ul>
+        </section>
+
+        <section class="choice-by-type">
+                <ul>
+                    <li>По цене</li>
+                    <li>По типу</li>
+                    <li>По названию</li>
+                </ul>
+        </section>
+
+        <div class="buttons">
+                <ul>
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                </ul>
+                <a class="btn btn-next" href="#">Следующая</a>
+        </div>
+        </article>
+
+         <section class="map">
+            <h1 class="visually-hidden">Адрес студии</h1>
+             <!-- Здесь будет фон карта -->
+        <section class="contact">
+            <h3>nёrds design studio</h3>
+                <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+                <p>тел. +7(812)275-75-75</p>
+                <a class="btn btn-feedback" href="#">Напишите нам</a>
+        </section>
+        </section>
+    </main>
+
+        <footer class="main-footer">
+            <h1 class="visually-hidden">Футер сайта</h1>
+            <ul class="footer-social">
+                <li class="social-vk"><a href=<"#">Vkontakte</a></li>
+                <li class="social-fb"><a href=<"#">Facebook</a></li>
+                <li class="social-ins"><a href=<"#">Instagram</a></li>
+            </ul>
+            
+            <div class="footer-description">
+                <p><span><b>Давайте дружить, это выгодно!</b></span></p>
+                <p>Скидка 10% для друзей из социальных сетей.</p>
+            </div>
+        </footer>
+ </body>
+ </html>
+
+
