@@ -1,145 +1,162 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<title>Проект Нёрдс</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="#">
-</head>
+  <head>
+	  <title>Проект Нёрдс</title>
+	  <meta charset="utf-8">
+	  <link rel="stylesheet" type="text/css" href="#">
+  </head>
 
-<body>
-     <header class="main-header">
-     	<nav class="main-navigation">
-     		<div class="main-header-logo">
-     			<!-- Здесь будет Логотип -->
+  <body>
+    <header class="main-header">
+    	<div class="container">
+     	  <nav class="main-navigation">
+     		  <div class="main-header-logo">
+     			  <!-- Здесь будет Логотип -->
      		    <img src="http://placehold.it/150x100" width="#" height="#" alt="Логотип Нёрдс">
      	    </div>   		
-     		    <ul class="main-site-navigation">
-     			    <li><a href="studio.html">Студия</a></li>
-     			    <li><a href="client.html">Клиент</a></li>
-     			    <li><a href="catalog.html">Магазин</a></li>
-     			    <li><a href="contacts.html">Контакты</a></li>
-     		    </ul>
-
-     		    <ul class="main-basket">
-     		    	<li class="basket-link">Корзина</li>
-     		    </ul>
+     		  <ul class="main-site-navigation">
+     			  <li><a href="studio.html">Студия</a></li>
+     			  <li><a href="client.html">Клиент</a></li>
+     			  <li><a href="catalog.html">Магазин</a></li>
+     			  <li><a href="contacts.html">Контакты</a></li>
+     		  </ul>
+     		    <a class="btn-basket" href="#">Корзина</a>
         </nav>            
-            <div class="comment-in-header">
-                <p><span><strong>Долго, дорого, скурпулезно.</strong></span></p>
-                <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-            </div>
-                <a class="btn btn-findout-more" href="#">Узнать больше</a>
-     </header>
+          <div class="header-comments">
+            <p class="header-comment-item">Долго, дорого, скурпулезно.</p>
+            <p class="header-sub-comment">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          </div>
+            <a class="btn btn-findout-more" href="#">Узнать больше</a>
+          </div>
+    </header>
 
+    <main class="main-container">
+    	<div class="container">
+     	  <h1 class="visually-hidden">Нёрдс</h1>
+     	    <section class="features">
+     		    <h2 class="visually-hidden">Преимущества</h2>
+              <ul class="features-list">
+                <li class="feature-item">
+              	  <img src="#" width="#" height="#" alt="Фото 1">
+                 	<h3>Веб-сайты</h3>
+                 	<p>Мир никогда не будет прежним после того как увидят ваш сайт!</p>
+                  <a class="btn btn-order" href="#">Заказать</a>
+                </li>
+                <li class="feature-item">
+               	  <img src="#" width="#" height="#" alt="Фото 2">
+               	  <h3>Приложения</h3>
+               	  <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+               	  <a class="btn btn-order" href="#">Заказать</a>
+                </li>
+                <li class="feature-item">
+               	  <img src="#" width="#" height="#" alt="Фото 3">
+                  <h3>Презентации</h3>
+                  <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+                  <a class="btn btn-order" href="#">Заказать</a>
+                </li>
+              </ul>
+      </div>
+          </section>
 
-     <main class="container">
-     	<h1 class="visually-hidden">Нёрдс</h1>
-     	<section class="features">
-     		<h2 class="visually-hidden">Преимущества</h2>
-               <ul class="features-list">
-               	  <li class="feature-item">
-               	  	Фото 1
-               	  	<h3>Веб-сайты</h3>
-               	  	<p>Мир никогда не будет прежним после того как увидят ваш сайт!</p>
-               	  	<a class="btn btn-order" href="#">Заказать</a>
-               	  </li>
-               	  <li class="feature-item">
-               	  	Фото 2
-               	  	<h3>Приложения</h3>
-               	  	<p>Покорите топ-10 приложений в AppStore и Google Play</p>
-               	  	<a class="btn btn-order" href="#">Заказать</a>
-               	  </li>
-               	  <li class="feature-item">
-               	    Фото 3
-                    <h3>Презентации</h3>
-                    <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-                    <a class="btn btn-order" href="#">Заказать</a>
-               	  </li>
-               </ul>
-               </div>
-     	</section>
-  
-               <hr class="content-devide-1">
+          <hr class="content-devide-1">
 
-        <section class="about-us">
-        	<h1 class="visually-hidden">О нас</h1>
-        	<div class="about-us-info">
-        		<p><span><strong>Мы - маленькая, но гордая дизайн студия из Краснодара.</strong></span></p>
-        		<p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-        	</div>            
-            <h4 class="about-us-description">Выполняем заказы на разработку:</h4>
+          <section class="about-us">
+        	  <div class="container">
+        	    <h1 class="visually-hidden">О нас</h1>
+        	      <div class="about-us-comment">
+        		      <p class="content-comment">Мы - маленькая, но гордая дизайн студия из Краснодара.</p>
+        		      <p class="content-sub-comment">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+        	      </div>            
+              <h4 class="work-title">Выполняем заказы на разработку:</h4>
             <ul class="what-we-do">
             	<li>Веб-сайтов любой сложности</li>
             	<li>Мобильных приложений для iOS и Android</li>
             	<li>Слайдшоу и видео для корпоративных презентаций</li>
             </ul>
-        </section>
+          </section>
 
-        <section class="count-in-percents">
-        	<div class="content-logo">
-        		<!-- Здесь будет Логотип -->
-        		<img src="http://placehold.it/150x100" width="#" height="#" alt="Логотип Нёрдс">
-        	</div> 
-            <h4 class="comment-info">С 2004 года любим точность во всем:</h4>
-            <ul class="percent-list">
-            	<li class="percent-item">
-            	<span>146%</span>
-            	<p class="percent-comment">уровень самоотдачи</p>
-            	</li>
-            	<li class="percent-item">
-            	<span>100%</span>
-            	<p class="percent-comment">Соблюдение сроков</p>	
-            	</li>
-            	<li class="percent-item">
-            	<span>50%</span>
-            	<p class="percent-comment">Минимальная предоплата</p>
-            	</li>
-            </ul>
-        </section>
+          <section class="count-in-percents">
+        	  <div class="content-logo">
+        		  <!-- Здесь будет Логотип -->
+        		  <img src="http://placehold.it/150x100" width="#" height="#" alt="Логотип Нёрдс">
+        	  </div> 
+              <h4 class="work-description">С 2004 года любим точность во всем:</h4>
+                <ul class="percent-list">
+            	    <li class="percent-item">
+            	      <span>146%</span>
+            	      <p class="work-comment">уровень самоотдачи</p>
+            	    </li>
+            	    <li class="percent-item">
+            	      <span>100%</span>
+            	      <p class="work-comment">Соблюдение сроков</p>	
+            	    </li>
+            	    <li class="percent-item">
+            	      <span>50%</span>
+            	      <p class="work-comment">Минимальная предоплата</p>
+            	    </li>
+                </ul>
+            </div>
+          </section>
 
-
-              <hr class="content-devide-2">
-
+        <hr class="content-devide-2">
 
         <section class="list-of-sites">
-        	<h1 class="visually-hidden">Сайты</h1>
-        	<ul class="sites">
-        		<li><a href="/htmlacademy.ru">htmlacademy</a></li>
-        		<li><a href="/barbershop.ru">barbershop</a></li>
-        		<li><a href="/pink.ru">pink</a></li>
-        		<li><a href="/mishka.ru">mishka</a></li>
-        	</ul>
+        	<div class="container">
+        	  <h1 class="visually-hidden">Сайты</h1>
+        	    <ul class="sites">
+        		    <li>
+        			    <a href="/htmlacademy.ru">
+        			    <img src="#" width="#" height="#" alt="htmlacademy">
+        		      </a>
+        	      </li>
+        		    <li>
+        			    <a href="/barbershop.ru">
+        			    <img src="#" width="#" height="#" alt="barbershop">
+        		      </a>
+        	      </li>
+        		    <li>
+        		      <a href="/pink.ru">
+        		      <img src="#" width="#" height="#" alt="pink">
+        	        </a>
+                </li>
+        		    <li>
+        			    <a href="/mishka.ru">
+        			    <img src="#" width="#" height="#" alt="mishka">
+        		      </a>
+        	      </li>
+        	    </ul>
+        	</div>
         </section>
 
-            
-              <hr class="content-devide-3">
-
-
+        <hr class="content-devide-3">
 
         <section class="map">
-        	<h1 class="visually-hidden">Адрес студии</h1>
-        	 <!-- Здесь будет фон карта -->
+        	<div class="container">
+        	  <h1 class="visually-hidden">Адрес студии</h1>
+        	    <!-- Здесь будет фон карта -->
         <section class="contact">
-            <h3>nёrds design studio</h3>
-                <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-                <p>тел. +7(812)275-75-75</p>
-            	<a class="btn btn-feedback" href="#">Напишите нам</a>
+          <h3>nёrds design studio</h3>
+            <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+            <p>тел. +7(812)275-75-75</p>
+            <a class="btn btn-feedback" href="#">Напишите нам</a>
         </section>
+          </div>
         </section>
     </main>
 
-        <footer class="main-footer">
-        	<h1 class="visually-hidden">Футер сайта</h1>
-        	<ul class="footer-social">
-        		<li class="social-vk"><a href=<"#">Vkontakte</a></li>
-        		<li class="social-fb"><a href=<"#">Facebook</a></li>
-        		<li class="social-ins"><a href=<"#">Instagram</a></li>
-        	</ul>
-            
-        	<div class="footer-description">
-        		<p><span><b>Давайте дружить, это выгодно!</b></span></p>
-        		<p>Скидка 10% для друзей из социальных сетей.</p>
-            </div> 	
-        </footer>
-</body>
+    <footer class="main-footer">
+    	<div class="container">
+        <h1 class="visually-hidden">Футер сайта</h1>
+          <ul class="footer-socials">
+        	  <li class="social-btn social-btn-vk"><a href=<"#">Vkontakte</a></li>
+        	  <li class="social-btn social-btn-fb"><a href=<"#">Facebook</a></li>
+        	  <li class="social-btn social-btn-ins"><a href=<"#">Instagram</a></li>
+          </ul>
+          <div class="footer-comments">
+        	  <p class="footer-comment-item">Давайте дружить, это выгодно!</p>
+        	  <p class="footer-sub-comment">Скидка 10% для друзей из социальных сетей.</p>
+          </div>
+      </div> 	
+    </footer>
+  </body>
 </html
