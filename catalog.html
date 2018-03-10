@@ -21,7 +21,7 @@
      		  <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
      		  <li><a href="contacts.html">Контакты</a></li>
      		</ul>
-     		<a class="btn-basket" href="#">Корзина</a>
+     		<a class="btn-basket" href="basket.html">Корзина</a>
       </nav>
       <h1>Магазин готовых шаблонов</h1>  
     </div> 
@@ -31,11 +31,60 @@
     <div class="container">
       <h1 class="visually-hidden">Контент</h1>
       <article class="main-content">
-        <aside class="sidebar-block">
+        <aside class="filters">
           <h2 class="visually-hidden">Фильтр товаров</h2>
           <h3>Стоимость:</h3>
-          <!-- Здесь будет форма -->
-          <a class="btn btn-show" href="#">Показать</a>
+          <form class="filter-list" action="#" method="post" oninput="#">
+            <div class="filter-range">
+              <label for="price-range"></label>
+              <input type="range" id="price-range" name="range" min="0" max="15000" step="1">
+            </div>
+            <div class="filter-range output area">
+              0<output name="output-min"></output>
+              15000<output name="output-max"></output>
+            </div>
+            <div class="filter-grid">
+              <ul>
+                <li class="filter-option">
+                  <input class="filter-radio" type="radio" name="product-group" id="filter-adaptive" value="adaptive" checked>
+                  <label for="filter-adaptive">Адаптивная</label>
+                </li>
+                <li class="filter-option">
+                   <input class="filter-radio" type="radio" name="product-group" id="filter-fixed" value="fixed">
+                   <label for="filter-fixed">Фиксированная</label>
+                </li>
+                <li class="filter-option">
+                  <input class="filter-radio" type="radio" name="product-group" id="filter-rubber" value="rubber">
+                  <label for="filter-rubber">Резиновая</label>
+                </li>
+              </ul>
+            </div>
+            <div class="filter-features">
+              <ul>
+                <li class="filter-option">
+                  <input class="filter-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+                  <label for="filter-slider">Слайдер</label>
+                </li>
+                <li class="filter-option">
+                  <input class="filter-checkbox" type="checkbox" name="block-features" id="filter-feature">
+                  <label for="filter-feature">Блок преимуществ</label>                
+                </li>
+                <li class="filter-option">
+                  <input class="filter-checkbox" type="checkbox" name="news" id="filter-news" checked>
+                  <label for="filter-news">Новости</label>                 
+                </li>
+                <li class="filter-option">
+                  <input class="filter-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+                  <label for="filter-gallery">Галерея</label>                
+                </li>
+                <li class="filter-option">
+                  <input class="filter-checkbox" type="checkbox" name="basket-checkbox" id="filter-basket">
+                  <label for="filter-basket">Корзина</label>                 
+                </li>
+              </ul>
+            </div>
+            <button type="submit" class="btn btn-filter">Показать</button>
+          </form>
         </aside>
 
         <section class="catalog">

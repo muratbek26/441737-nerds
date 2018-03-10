@@ -19,7 +19,7 @@
      			<li><a href="catalog.html">Магазин</a></li>
      			<li><a href="contacts.html">Контакты</a></li>
      		</ul>
-     		<a class="btn-basket" href="#">Корзина</a>
+     		<a class="btn-basket" href="basket.html">Корзина</a>
       </nav>            
       <div class="header-comments">
         <p class="header-comment-item">Долго, дорого, скурпулезно.</p>
@@ -28,7 +28,11 @@
       <a class="btn btn-findout-more" href="#">Узнать больше</a>
       <div class="header-image-1">
       	<img src="img/slide1.png" width="698" height="413" alt="slide1">
+      	<button class="btn btn-button">
+  		    Кнопка 1
+  	    </button>
       </div>
+      <
       <div class="header-comments">
         <p class="header-comment-item">Любим математику как никто другой</p>
         <p class="header-sub-comment">Никакого креатива, только математические формулы для расчета идеальных пропорции.</p>
@@ -36,6 +40,9 @@
       <a class="btn btn-findout-more" href="#">Узнать больше</a>
       <div class="header-image-2">
       	<img src="img/slide2.png" width="663" height="430" alt="slide2">
+      	<button class="btn btn-button">
+  		    Кнопка 2
+  	    </button>
       </div>
        <div class="header-comments">
         <p class="header-comment-item">Только ночь, только хардкор</p>
@@ -44,6 +51,9 @@
       <a class="btn btn-findout-more" href="#">Узнать больше</a>
       <div class="header-image-3">
       	<img src="img/slide3.png" width="759" height="411" alt="slide3">
+      	<button class="btn btn-button">
+  		    Кнопка 3
+  	    </button>
       </div>
     </div>
   </header>
@@ -165,14 +175,14 @@
           	<img src="img/write-us-big-white-back.png" width="960" height="590" alt="big-white-back">
           	<h2>Напишите нам</h2>       	
           	<form class="form-write-us" action="#" method="post">
-          	  <label for="name">Ваше имя:</label>
-              <input type="text" name="name" id="name" placeholder="Имя Фамилия">          
-              <label for="password">Ваш e-mail:</label>
-              <input type="password" name="password" id="password" placeholder="email@example.com">
-              <label for="address">Тект письма:</label>
-              <textarea id="address" name="address" сols="#" rows="#">В свободной форме</textarea> 
+          	  <label for="full-name">Ваше имя:</label>
+              <input type="text" name="name" id="full-name" placeholder="Имя Фамилия" tabindex="1">          
+              <label for="email-address">Ваш e-mail:</label>
+              <input type="email" name="email" id="email-address" placeholder="email@example.com" tabindex="2">
+              <label for="full-address">Тект письма:</label>
+              <textarea name="address" id="full-address" сols="#" rows="#" tabindex="3">В свободной форме</textarea> 
               <div class="btn btn-send">           
-                <input type="submit" value="Отправить">
+                <input type="submit" value="Отправить" tabindex="4">
               </div>
             </form>
           </div>
