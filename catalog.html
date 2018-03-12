@@ -11,17 +11,17 @@
     <div class="container">
    	  <nav class="main-navigation">
      		<div class="main-header-logo">
-          <a class="main-header-logo" href="index.html" tabindex="1">
+          <a class="main-header-logo" href="index.html">
      		    <img src="img/nerds-logo.svg" width="#" height="#" alt="Логотип Нёрдс">
           </a>
      	  </div>
      		<ul class="main-site-navigation">
-     		  <li><a href="studio.html" tabindex="2">Студия</a></li>
-     		  <li><a href="client.html" tabindex="3">Клиент</a></li>
-     		  <li class="site-navigation-current" tabindex="4"><a href="catalog.html">Магазин</a></li>
-     		  <li><a href="contacts.html" tabindex="5">Контакты</a></li>
+     		  <li><a href="studio.html">Студия</a></li>
+     		  <li><a href="client.html">Клиент</a></li>
+     		  <li class="site-navigation-current"><a href="catalog.html">Магазин</a></li>
+     		  <li><a href="contacts.html">Контакты</a></li>
      		</ul>
-     		<a class="btn-basket" href="basket.html" tabindex="6">Корзина</a>
+     		<a class="btn-basket" href="basket.html">Корзина</a>
       </nav>
       <h1>Магазин готовых шаблонов</h1>  
     </div> 
@@ -30,62 +30,64 @@
   <main class="main-container">
     <div class="container">
       <h1 class="visually-hidden">Контент</h1>
-      <article class="main-content">
+      <section class="main-content">
         <aside class="filters">
           <h2 class="visually-hidden">Фильтр товаров</h2>
           <h3>Стоимость:</h3>
           <form class="filter-list" action="#" method="post" oninput="#">
             <div class="filter-range">
               <label for="price-range"></label>
-              <input type="range" id="price-range" name="range" min="0" max="15000" step="0" tabindex="7">
+              <input type="range" id="price-range" name="range" min="0" max="15000" step="0">
             </div>
             <div class="filter-range output area">
               ОТ <output class="output" name="output-min" min="0" step="0">0</output>
               ДО <output class="output" name="output-max" max="15000" step="0">15000</output>
             </div>
+
             <div class="filter-grid">
               <h3>Сетка:</h3>
               <ul>
                 <li class="filter-option">
-                  <input class="filter-radio" type="radio" name="product-group" id="filter-adaptive" value="adaptive" tabindex="8" checked>
+                  <input class="filter-radio" type="radio" name="product-group" id="filter-adaptive" value="adaptive" checked>
                   <label for="filter-adaptive">Адаптивная</label>
                 </li>
                 <li class="filter-option">
-                   <input class="filter-radio" type="radio" name="product-group" id="filter-fixed" value="fixed" tabindex="9">
+                   <input class="filter-radio" type="radio" name="product-group" id="filter-fixed" value="fixed">
                    <label for="filter-fixed">Фиксированная</label>
                 </li>
                 <li class="filter-option">
-                  <input class="filter-radio" type="radio" name="product-group" id="filter-rubber" value="rubber" tabindex="10">
+                  <input class="filter-radio" type="radio" name="product-group" id="filter-rubber" value="rubber">
                   <label for="filter-rubber">Резиновая</label>
                 </li>
               </ul>
             </div>
+
             <div class="filter-features">
               <h3>Сетка:</h3>
               <ul>
                 <li class="filter-option">
-                  <input class="filter-checkbox" type="checkbox" name="slider" id="filter-slider" tabindex="11" checked>
+                  <input class="filter-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
                   <label for="filter-slider">Слайдер</label>
                 </li>
                 <li class="filter-option">
-                  <input class="filter-checkbox" type="checkbox" name="block-features" id="filter-feature" tabindex="12">
+                  <input class="filter-checkbox" type="checkbox" name="block-features" id="filter-feature">
                   <label for="filter-feature">Блок преимуществ</label>                
                 </li>
                 <li class="filter-option">
-                  <input class="filter-checkbox" type="checkbox" name="news" id="filter-news" tabindex="13" checked>
+                  <input class="filter-checkbox" type="checkbox" name="news" id="filter-news" checked>
                   <label for="filter-news">Новости</label>                 
                 </li>
                 <li class="filter-option">
-                  <input class="filter-checkbox" type="checkbox" name="gallery" id="filter-gallery" tabindex="14">
+                  <input class="filter-checkbox" type="checkbox" name="gallery" id="filter-gallery">
                   <label for="filter-gallery">Галерея</label>                
                 </li>
                 <li class="filter-option">
-                  <input class="filter-checkbox" type="checkbox" name="basket-checkbox" id="filter-basket" tabindex="15">
+                  <input class="filter-checkbox" type="checkbox" name="basket-checkbox" id="filter-basket">
                   <label for="filter-basket">Корзина</label>                 
                 </li>
               </ul>
             </div>
-            <button type="submit" class="btn btn-filter" tabindex="16">Показать</button>
+            <button type="submit" class="btn btn-filter">Показать</button>
           </form>
         </aside>
 
@@ -94,22 +96,23 @@
           <div class="choice-by-type">
             <ul class="choice-list">
               <li>
-                <button class="btn-by-price" type="submit" name="by-price" tabindex="17">По цене</button>
+                <button class="btn-by-price" type="submit" name="by-price">По цене</button>
               </li>
               <li>
-                <button class="btn-by-type" type="submit" name="by-type" tabindex="18">По типу</button>
+                <button class="btn-by-type" type="submit" name="by-type">По типу</button>
               </li>
               <li>
-                <button class="btn-by-name" type="submit" name="by-name" tabindex="19">По названию</li>
+                <button class="btn-by-name" type="submit" name="by-name">По названию</button>
+              </li>
             </ul>
-            <button class="btn btn-icon-down-dir" type="submit" name="icon-down" tabindex="20"></button>
-            <button class="btn btn-icon-up-dir" type="submit" name="icon-up" tabindex="21"></button>
+            <button class="btn btn-icon-down-dir" type="submit" name="icon-down"></button>
+            <button class="btn btn-icon-up-dir" type="submit" name="icon-up"></button>
           </div>
 
           <ul class="catalog-list">
             <li class="catalog-item">
               <p class="catalog-item-image">
-                <a href="sedona.html" tabindex="22">
+                <a href="sedona.html">
                   <img src="img/img-sedona.jpg" width="360" height="576" alt="SEDONA">
                 </a>
               </p>
@@ -117,14 +120,14 @@
                 <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back">
                 <h3>SEDONA</h3>
                 <span>Информационный сайт для туристов</span>
-                <a class="btn btn-price" href="#" tabindex="23">
+                <a class="btn btn-price" href="#">
                   <b>9 900 РУБ.</b>
                 </a>
               </p>
             </li>
             <li>
               <p class="catalog-item-image">
-                <a href="pink.html" tabindex="24">
+                <a href="pink.html">
                   <img src="img/img-pink.jpg" width="360" height="576" alt="PINK">
                 </a>
               </p>
@@ -132,14 +135,14 @@
                 <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back">
                 <h3>PINK APP</h3>
                 <span>Продуктовый лендинг приложения для iOS и Android</span>
-                <a class="btn btn-price" href="#" tabindex="25">
+                <a class="btn btn-price" href="#">
                   <b>9 900 РУБ.</b>
                 </a>
               </p>
             </li>
             <li>
               <p class="catalog-item-image">
-                <a href="borodinski.html" tabindex="26">
+                <a href="borodinski.html">
                   <img src="img/img-barbershop.jpg" width="360" height="576" alt="BORODINSKI">
                 </a>
               </p>
@@ -147,14 +150,14 @@
                 <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back">
                 <h3>BARBERSHOP</h3>
                 <span>Сайт салоны красоты. Для мужчин, да.</span>
-                <a class="btn btn-price" href="#" tabindex="27">
+                <a class="btn btn-price" href="#">
                   <b>9 900 РУБ.</b>
                 </a>
               </p>
             </li>
             <li>
               <p class="catalog-item-image">
-                <a href="mishka.html" tabindex="28">
+                <a href="mishka.html">
                   <img src="img/img-mishka.jpg" width="360" height="576" alt="MISHKA">
                 </a>
               </p>
@@ -162,14 +165,14 @@
                 <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back">
                 <h3>MISHKA</h3>
                 <span>Интернет магазин вязанных игрушек</span>
-                <a class="btn btn-price" href="#" tabindex="29">
+                <a class="btn btn-price" href="#">
                   <b>9 900 РУБ.</b>
                 </a>
               </p>
             </li>
             <li>
               <p class="catalog-item-image">
-                <a href="aplus.html" tabindex="30">
+                <a href="aplus.html">
                   <img src="img/img-aplus.jpg" width="360" height="576" alt="APLUS">
                 </a>
               </p>
@@ -177,14 +180,14 @@
                 <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back">
                 <h3>A PLUS</h3>
                 <span>Лендинг курсов повышения квалификации</span>
-                <a class="btn btn-price" href="#" tabindex="31">
+                <a class="btn btn-price" href="#">
                   <b>9 900 РУБ.</b>
                 </a>
               </p>
             </li>
             <li>
               <p class="catalog-item-image">
-                <a href="kvast.html" tabindex="32">
+                <a href="kvast.html">
                   <img src="img/img-kvast.jpg" width="360" height="576" alt="KVAST">
                 </a>
               </p>
@@ -192,23 +195,23 @@
                 <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back">
                 <h3>КВАСТ</h3>
                 <span>Промо-сайт производителя крафтового кваса</span>
-                <a class="btn btn-price" href="#" tabindex="33">
+                <a class="btn btn-price" href="#">
                   <b>9 900 РУБ.</b>
                 </a>
               </p>
             </li>
           </ul>   
-        </section>
-            
-        <div class="pagination-buttons">
-          <ul class="pagination list">
-            <li class="pagination-item pagination-item-current"><a href="#" tabindex="34">1</a></li>
-            <li class="pagination-item"><a href="#" tabindex="35">2</a></li>
-            <li class="pagination-item"><a href="#" tabindex="36">3</a></li>
-            <li class="pagination-item-next"><a href="#" tabindex="37">Следующая</a></li>
-          </ul>
-        </div>
-      </article>
+        
+          <div class="pagination-buttons">
+            <ul class="pagination list">
+              <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+              <li class="pagination-item"><a href="#">2</a></li>
+              <li class="pagination-item"><a href="#">3</a></li>
+              <li class="pagination-item-next"><a href="#">Следующая</a></li>
+            </ul>
+          </div>
+        </section>     
+      </section>
     </div>
 
     <section class="map">
@@ -223,20 +226,20 @@
             <h3>nёrds design studio</h3>
             <p>191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
             <p>тел. +7(812)275-75-75</p>
-            <button class="btn btn-feedback" type="submit" name="address-button" tabindex="38">Напишите нам</button>
+            <button class="btn btn-feedback" type="submit" name="address-button">Напишите нам</button>
           </div>
           <div class="write-us">
             <img src="img/write-us-big-white-back.png" width="960" height="590" alt="big-white-back">
             <h2>Напишите нам</h2>         
             <form class="form-write-us" action="#" method="post">
               <label for="full-name">Ваше имя:</label>
-              <input type="text" name="name" id="full-name" placeholder="Имя Фамилия" tabindex="39">          
+              <input type="text" name="name" id="full-name" placeholder="Имя Фамилия">          
               <label for="email-address">Ваш e-mail:</label>
-              <input type="email" name="email" id="email-address" placeholder="email@example.com" tabindex="40" required>
+              <input type="email" name="email" id="email-address" placeholder="email@example.com" required>
               <label for="full-address">Тект письма:</label>
-              <textarea name="address" id="full-address" сols="#" rows="#" tabindex="41">В свободной форме</textarea> 
+              <textarea name="address" id="full-address" сols="#" rows="#">В свободной форме</textarea> 
               <div class="btn btn-send">           
-                <input type="submit" value="Отправить" tabindex="42">
+                <input type="submit" value="Отправить">
               </div>
             </form>
           </div>
@@ -249,9 +252,9 @@
     <div class="container">
       <h1 class="visually-hidden">Футер сайта</h1>
       <ul class="footer-socials">
-        <li class="social-btn social-btn-vk"><a href="#" tabindex="43">Vkontakte</a></li>
-        <li class="social-btn social-btn-fb"><a href="#" tabindex="44">Facebook</a></li>
-        <li class="social-btn social-btn-ins"><a href="#" tabindex="45">Instagram</a></li>
+        <li class="social-btn social-btn-vk"><a href="#">Vkontakte</a></li>
+        <li class="social-btn social-btn-fb"><a href="#">Facebook</a></li>
+        <li class="social-btn social-btn-ins"><a href="#">Instagram</a></li>
       </ul>
       <div class="footer-comments">
         <p class="footer-comment-item">Давайте дружить, это выгодно!</p>
@@ -261,5 +264,5 @@
   </footer>
 
 </body>
-</html
+</html>
 
