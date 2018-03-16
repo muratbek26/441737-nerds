@@ -1,9 +1,517 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: yellow;
+	background-color: ffffff;
+	font-family: 'Roboto', Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #283136;
 }
 
 a {
 	text-decoration: none;
+}
+
+header,
+section,
+aside,
+nav,
+main,
+footer {
+	display: block;
+}
+
+.page-header {
+    background-color: #eeeeee;
+} 
+
+.header-logo a {
+	width: 160px;
+	height: 70px;
+	color: #000000;
+}
+
+.header-logo a:hover {
+	color: rgba(48, 48, 48, 0.4);
+}
+
+.header-logo a:active {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.main-nav {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.header-site-nav {
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.header-site-nav a,
+.basket a {
+    color: #000000;
+}
+
+.header-site-nav a:hover,
+.basket a:hover {
+	color: #fb565a;
+}
+
+.header-site-nav a:focus,
+.basket a:focus {
+    opacity: 0.5;
+}
+
+.header-site-nav a:active,
+.basket a:active {
+	color: #000000;
+	border-bottom: 2px solid #fb565a; 
+}
+
+.basket {
+    text-transform: uppercase;
+}
+
+.header-promo-item {
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.header-sub-promo {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+ /* Кнопку нужно стилизовать */
+ .button-findout-more a {
+ 	display: table-cell;
+ 	width: 240px;
+ 	height: 50px;
+ 	font-size: 16px;
+ 	line-height: 18px;
+ 	color: #ffffff;
+ 	background-color: #fb565a;
+ 	vertical-align: middle;
+ 	text-align: center;
+ 	text-transform: uppercase;
+ }
+ 
+
+ .features-list {
+ 	list-style: none;
+ }
+
+.feature-item h3 {
+	font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-transform: uppercase;
+}
+/* нужно доработать vertical align */
+.feature-item .btn-order {
+	display: table-cell;
+	width: 160px;
+	height: 50px;
+	font-size: 16px;
+ 	line-height: 18px;
+	color: #ffffff;
+ 	background-color: #fb565a;
+ 	vertical-align: middle;
+ 	text-align: center;
+	text-transform: uppercase;
+}
+
+.content-promo {
+	font-size: 45px;
+    line-height: 45px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.content-sub-promo {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.what-we-do-title,
+.work-description {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+
+.what-we-do {
+	list-style: none;
+	font-size: 16px;
+	line-height: 48px;
+}
+
+ .percent-list {
+    list-style: none;
+ }
+
+ .percent-list span {
+ 	font-size: 45px;
+ 	line-height: 11px;
+ 	font-weight: bold;
+ }
+
+/* sites block */
+.sites {
+	list-style: none;
+	font-size: 108px;
+ 	line-height: 24px;
+}
+
+/* map block */
+.map-block {
+	width: 1440px;
+	height: 416px;
+	position: relative;
+}
+
+.contacts {
+	position: absolute;
+	top: 105px;
+	left: 140px;
+}
+
+.contact-title {
+    position: absolute;
+    top: 53px;
+    left: 51px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+	color: #000000;
+}
+
+.contact-address {
+	position: absolute;
+	top: 103px;
+	left: 51px;
+	font-size: 16px;
+	line-height: 18px
+}
+
+.contact-phone {
+	position: absolute;
+	top: 158px;
+	left: 51px;
+}
+
+.contacts .btn-feedback {
+	position: absolute;
+	top: 211px;
+	left: 51px;
+	background-color: #fb565a;
+	width: 219px;
+	height: 50px;
+	font-size: 16px;
+	line-height: 18px;
+	color: white;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+}
+
+/* footer block */
+.page-footer {
+	background-color: #ffffff;
+}
+
+.footer-socials {
+	list-style: none;
+}
+
+.social-btn {
+	background-color: #969696;
+	width: 79px;
+	height: 79px;
+	border-radius: 50%;
+	margin-top: 69px;
+	margin-left: 144px;
+	opacity: 0.4;
+}
+
+.footer-comment-item {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+}
+
+.footer-sub-comment {
+	font-size: 16px;
+	line-height: 22px;
+	color: #444444;
+}
+
+/* modal window */
+.write-us {
+	position: relative;
+	width: 960px;
+	height: 590px;
+	outline: 1px solid #000000;
+}
+
+.write-us-title {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 45px;
+	color: #000000;
+}
+
+.form-write-us {
+	display: block;
+}
+
+.form-write-us .name label {
+  position: absolute;
+	top: 180px;
+	left: 100px;	
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.form-write-us .name input {
+	position: absolute;
+	top: 210px;
+	left: 100px;
+	width: 360px;
+	height: 50px;
+}
+
+.form-write-us .email label {
+  position: absolute;
+	top: 180px;
+	left: 500px;	
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.form-write-us .email input {
+	position: absolute;
+	top: 210px;
+	left: 500px;
+	width: 360px;
+	height: 50px;
+}
+
+.form-write-us .free-form label {
+  position: absolute;
+	top: 290px;
+	left: 100px;	
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000000;
+}
+
+.form-write-us .free-form textarea {
+	position: absolute;
+	top: 320px;
+	left: 100px;
+	width: 760px;
+	height: 118px;
+}
+
+.form-write-us .btn-send {
+	position: absolute;
+	top: 490px;
+	left: 100px;
+	display: table-cell;
+  width: 260px;
+  height: 50px;
+  background-color: #fb565a;
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+
+ /* catalog.html */
+
+.filter-grid h3,
+.filter-features h3,
+.filters h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.btn-filter {
+	display: table-cell;
+	width: 260px;
+	height: 50px;
+	background-color: #bbbbbb;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 18px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.btn-filter-show {
+	color: #000000;
+}
+
+.catalog h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 18px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.sorting-list {
+	list-style: none;
+}
+
+.sorting-by-price {
+ 	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+ }
+
+.sorting-by-type,
+.sorting-by-name {
+ 	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+	opacity: 0.3;
+ }
+
+.catalog-item-price {
+	position: relative;
+}
+
+.catalog-item-title {
+	position: absolute;
+	top: 35px;
+	left: 145px;
+	font-weight: bold;
+ 	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+ }
+
+ .catalog-item-barber {
+ 	position: absolute;
+	top: 35px;
+	left: 120px;
+	font-weight: bold;
+ 	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+ }
+
+ .catalog-item-kvast {
+ 	position: absolute;
+	top: 35px;
+	left: 150px;
+	font-weight: bold;
+ 	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+ }
+
+.catalog-info {
+	position: absolute;
+	top: 80px; 
+	left: 85px;
+ 	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+	text-align: center;
+ }
+
+.catalog-info-sedona {
+	position: absolute;
+	top: 80px; 
+	left: 100px;
+ 	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+	text-align: center;
+}
+
+.catalog-info-pink {
+  position: absolute;
+	top: 80px; 
+	left: 80px;
+ 	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+	text-indent: 1.5em;
+}
+
+.catalog-info-barber {
+	position: absolute;
+	top: 80px; 
+	left: 100px;
+ 	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+	text-align: center;
+}
+
+.catalog-info-mishka {
+	position: absolute;
+	top: 80px; 
+	left: 115px;
+ 	font-size: 16px;
+	line-height: 18px;
+	color: #666666;
+	text-align: center;
+}
+
+.btn-price {
+	position: absolute;
+	top: 140px;
+	left: 85px;
+	width: 200px;
+	height: 50px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #ffffff;
+ 	background-color: #fb565a;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.btn-price span {
+	display: block;
+  padding-top: 18px;
+}
+
+.pagination-list {
+	list-style: none;
+}
+
+.pagination-item a {
+	color: #000000;
+}
+
+.pagination-item-next a {
+	color: #000000;
 }
