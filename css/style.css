@@ -1,15 +1,16 @@
+html { 
+	box-sizing: border-box; 
+}
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: ffffff;
-	font-family: 'Roboto', Arial, sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	color: #283136;
 }
 
-a {
-	text-decoration: none;
+header,
+main,
+footer {
+	font-family: 'Roboto', Arial, sans-serif;
 }
 
 header,
@@ -18,11 +19,20 @@ aside,
 nav,
 main,
 footer {
-	display: block;
+  display: block;
+}
+
+main {
+	background-color: ffffff;
+	color: #283136;
+}
+
+a {
+	text-decoration: none;
 }
 
 .page-header {
-    background-color: #eeeeee;
+  background-color: #eeeeee;
 } 
 
 .header-logo a {
@@ -40,8 +50,8 @@ footer {
 }
 
 .main-nav {
-    font-size: 16px;
-    line-height: 30px;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .header-site-nav {
@@ -51,7 +61,7 @@ footer {
 
 .header-site-nav a,
 .basket a {
-    color: #000000;
+  color: #000000;
 }
 
 .header-site-nav a:hover,
@@ -61,7 +71,7 @@ footer {
 
 .header-site-nav a:focus,
 .basket a:focus {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .header-site-nav a:active,
@@ -71,7 +81,7 @@ footer {
 }
 
 .basket {
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .header-promo-item {
@@ -87,7 +97,7 @@ footer {
 }
 
  /* Кнопку нужно стилизовать */
- .button-findout-more a {
+.button-findout-more a {
  	display: table-cell;
  	width: 240px;
  	height: 50px;
@@ -98,18 +108,18 @@ footer {
  	vertical-align: middle;
  	text-align: center;
  	text-transform: uppercase;
- }
+}
  
 
- .features-list {
+.features-list {
  	list-style: none;
- }
+}
 
 .feature-item h3 {
 	font-size: 24px;
-    line-height: 30px;
-    color: #000000;
-    text-transform: uppercase;
+  line-height: 30px;
+  color: #000000;
+  text-transform: uppercase;
 }
 /* нужно доработать vertical align */
 .feature-item .btn-order {
@@ -127,9 +137,9 @@ footer {
 
 .content-promo {
 	font-size: 45px;
-    line-height: 45px;
-    color: #000000;
-    font-weight: bold;
+  line-height: 45px;
+  color: #000000;
+  font-weight: bold;
 }
 
 .content-sub-promo {
@@ -151,15 +161,15 @@ footer {
 	line-height: 48px;
 }
 
- .percent-list {
-    list-style: none;
- }
+.percent-list {
+  list-style: none;
+}
 
- .percent-list span {
+.percent-list span {
  	font-size: 45px;
  	line-height: 11px;
  	font-weight: bold;
- }
+}
 
 /* sites block */
 .sites {
@@ -181,14 +191,14 @@ footer {
 	left: 140px;
 }
 
-.contact-title {
-    position: absolute;
-    top: 53px;
-    left: 51px;
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
+.contact-title span {
+	position: absolute;
+	top: 54px;
+	left: 51px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
 	color: #000000;
 }
 
@@ -207,18 +217,9 @@ footer {
 }
 
 .contacts .btn-feedback {
-	position: absolute;
-	top: 211px;
-	left: 51px;
-	background-color: #fb565a;
-	width: 219px;
-	height: 50px;
 	font-size: 16px;
 	line-height: 18px;
-	color: white;
 	font-weight: bold;
-	border: none;
-	cursor: pointer;
 }
 
 /* footer block */
@@ -255,16 +256,10 @@ footer {
 
 /* modal window */
 .write-us {
-	position: relative;
-	width: 960px;
-	height: 590px;
 	outline: 1px solid #000000;
 }
 
 .write-us-title {
-	position: absolute;
-	top: 25px;
-	left: 100px;
 	font-weight: bold;
 	font-size: 45px;
 	line-height: 45px;
@@ -276,9 +271,6 @@ footer {
 }
 
 .form-write-us .name label {
-  position: absolute;
-	top: 180px;
-	left: 100px;	
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 18px;
@@ -286,17 +278,11 @@ footer {
 }
 
 .form-write-us .name input {
-	position: absolute;
-	top: 210px;
-	left: 100px;
 	width: 360px;
 	height: 50px;
 }
 
 .form-write-us .email label {
-  position: absolute;
-	top: 180px;
-	left: 500px;	
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 18px;
@@ -304,17 +290,11 @@ footer {
 }
 
 .form-write-us .email input {
-	position: absolute;
-	top: 210px;
-	left: 500px;
 	width: 360px;
 	height: 50px;
 }
 
 .form-write-us .free-form label {
-  position: absolute;
-	top: 290px;
-	left: 100px;	
 	font-weight: bold;
 	font-size: 16px;
 	line-height: 18px;
@@ -322,29 +302,13 @@ footer {
 }
 
 .form-write-us .free-form textarea {
-	position: absolute;
-	top: 320px;
-	left: 100px;
 	width: 760px;
 	height: 118px;
 }
 
 .form-write-us .btn-send {
-	position: absolute;
-	top: 490px;
-	left: 100px;
-	display: table-cell;
-  width: 260px;
-  height: 50px;
-  background-color: #fb565a;
   font-size: 16px;
   line-height: 18px;
-  color: #ffffff;
-  text-align: center;
-  vertical-align: middle;
-  text-transform: uppercase;
-  border: none;
-  cursor: pointer;
 }
 
  /* catalog.html */
@@ -383,6 +347,10 @@ footer {
 	text-transform: uppercase;
 }
 
+.catalog-item-price {
+	position: relative;
+}
+
 .sorting-list {
 	list-style: none;
 }
@@ -391,7 +359,7 @@ footer {
  	font-size: 14px;
 	line-height: 18px;
 	color: #000000;
- }
+}
 
 .sorting-by-type,
 .sorting-by-name {
@@ -399,10 +367,6 @@ footer {
 	line-height: 18px;
 	color: #000000;
 	opacity: 0.3;
- }
-
-.catalog-item-price {
-	position: relative;
 }
 
 .catalog-item-title {
@@ -413,19 +377,19 @@ footer {
  	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
- }
+}
 
- .catalog-item-barber {
- 	position: absolute;
+.catalog-item-barber {
+	position: absolute;
 	top: 35px;
 	left: 120px;
 	font-weight: bold;
  	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
- }
+}
 
- .catalog-item-kvast {
+.catalog-item-kvast {
  	position: absolute;
 	top: 35px;
 	left: 150px;
@@ -433,7 +397,7 @@ footer {
  	font-size: 18px;
 	line-height: 30px;
 	color: #000000;
- }
+}
 
 .catalog-info {
 	position: absolute;
@@ -443,7 +407,7 @@ footer {
 	line-height: 18px;
 	color: #666666;
 	text-align: center;
- }
+}
 
 .catalog-info-sedona {
 	position: absolute;
@@ -486,17 +450,9 @@ footer {
 }
 
 .btn-price {
-	position: absolute;
-	top: 140px;
-	left: 85px;
-	width: 200px;
-	height: 50px;
 	font-weight: bold;
 	font-size: 16px;
-	color: #ffffff;
- 	background-color: #fb565a;
-	text-transform: uppercase;
-	text-align: center;
+	line-height: 18px;
 }
 
 .btn-price span {
