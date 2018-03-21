@@ -12,19 +12,21 @@
   <header class="page-header">
     <div class="container">
       <nav class="main-nav">
-        <div class="header-logo">
-          <a href="index.html">
-            <img src="img/nerds-logo.svg" width="160" height="70" alt="Логотип Нёрдс">
-          </a>
-        </div>      
-        <ul class="header-site-nav">
-          <li><a href="studio.html">Студия</a></li>
-          <li><a href="client.html">Клиент</a></li>
-          <li><a href="catalog.html">Магазин</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
-        </ul>
-        <div class="basket">
-          <a href="basket.html">Корзина</a>
+        <div class="main-nav-wrapper">
+          <div class="header-logo">
+            <a href="index.html">
+              <img src="img/nerds-logo.svg" width="160" height="70" alt="Логотип Нёрдс">
+            </a>
+          </div>      
+          <ul class="header-site-nav">
+            <li><a href="studio.html">Студия</a></li>
+            <li><a href="client.html">Клиент</a></li>
+            <li class="header-site-nav-current"><a href="catalog.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+          </ul>
+          <div class="basket">
+            <a href="basket.html">Корзина</a>
+          </div>
         </div>
       </nav>  
       <h1>Магазин готовых шаблонов</h1>  
@@ -33,10 +35,8 @@
 
   <main class="main-container">
     <div class="container">
-      <h1 class="visually-hidden">Контент</h1>
       <section class="main-content">
         <aside class="filters">
-          <h2 class="visually-hidden">Фильтр товаров</h2>
           <h3>Стоимость:</h3>
           <form class="filter-list" action="#" method="post" oninput="#">
             <div class="filter-range">
@@ -98,8 +98,8 @@
         </aside>
 
         <section class="catalog">
-          <h3>Сортировать:</h3>
           <div class="sorting">
+            <h3>Сортировать:</h3>
             <ul class="sorting-list">
               <li class="sorting-list-current">
                 <a class="sorting-by-price" href="#">По цене</a>
@@ -116,9 +116,9 @@
               <a class="icon-up-dir" href="#"></a>
             </div>
           </div>
-
+          
           <ul class="catalog-list">
-            <li class="catalog-item">
+            <li>
               <p class="catalog-item-image">
                 <a href="sedona.html">
                   <img src="img/img-sedona.jpg" width="360" height="576" alt="SEDONA">
@@ -208,7 +208,7 @@
                 </a>
               </p>
             </li>
-          </ul>   
+          </ul>  
         
           <div class="pagination-buttons">
             <ul class="pagination-list">
@@ -223,38 +223,39 @@
     </div>
 
     <section class="map-block">
-      <div class="container">
-        <h1 class="visually-hidden">Адрес студии</h1>
-        <div class="map-image">
-          <img src="img/map-group.png" width="1440" height="416" alt="map-image">
-        </div>
+      <h1 class="visually-hidden">Адрес студии</h1>
+      <div class="map-image">
+        <img src="img/map-group.png" width="1440" height="416" alt="map-image">
+      </div>
 
-        <div class="contacts">
+      <div class="contacts">
+        <div class="container">
           <img src="img/white-back-small.png" width="319" height="308" alt="small-white-back">
           <p class="contact-title"><span>nёrds design studio</span></p>
           <p class="contact-address">191186, Санкт-Петербург,<br>
              ул. Б. Конюшенная, д. 19/8
           </p>
           <p class="contact-phone">тел. +7(812)275-75-75</p>
-          <div class="btn-feedback">
-            <button class="btn btn-feedback" type="submit" name="address-button">Напишите нам</button>
-          </div>
+        </div>
+        <div class="btn-feedback">
+          <button class="btn btn-feedback-item" type="submit" name="address-button">Напишите нам</button>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="main-footer">
+  <footer class="page-footer">
     <div class="container">
-      <h1 class="visually-hidden">Футер сайта</h1>
-      <ul class="footer-socials">
-        <li class="social-btn social-btn-vk"><a href="#">Vkontakte</a></li>
-        <li class="social-btn social-btn-fb"><a href="#">Facebook</a></li>
-        <li class="social-btn social-btn-ins"><a href="#">Instagram</a></li>
-      </ul>
-      <div class="footer-comments">
-        <p class="footer-comment-item">Давайте дружить, это выгодно!</p>
-        <p class="footer-sub-comment">Скидка 10% для друзей из социальных сетей.</p>
+      <div class="footer-container">
+        <ul class="footer-socials">
+          <li class="social-btn social-btn-vk"><a href="#"></a></li>
+          <li class="social-btn social-btn-fb"><a href="#"></a></li>
+          <li class="social-btn social-btn-ins"><a href="#"></a></li>
+        </ul>
+        <div class="footer-comments">
+          <p class="footer-comment-item">Давайте дружить, это выгодно!</p>
+          <p class="footer-sub-comment">Скидка 10% для друзей из социальных сетей.</p>
+        </div>
       </div>
     </div>  
   </footer>
@@ -264,20 +265,21 @@
     <div class="container">
       <img src="img/write-us-big-white-back.png" width="960" height="590" alt="big-white-back">
       <p class="write-us-title"><span>Напишите нам</span></p>         
-      <form class="form-write-us" action="#" method="post">
-        <p class="name">
+      <form class="write-us-form" action="#" method="post">
+        <div class="name">
           <label for="full-name">Ваше имя:</label><br>
           <input type="text" name="name" id="full-name" placeholder="Имя Фамилия">  
-        </p>
-        <p class="email">
+        </div>
+        <div class="email">
           <label for="email-address">Ваш e-mail:</label>
           <input type="email" name="email" id="email-address" placeholder="email@example.com">
-        </p>
-        <p class="free-form">
-        <label for="full-address">Тект письма:</label>
-          <textarea name="address" id="full-address" сols="10" rows="15" placeholder="В свободной форме"></textarea> 
-        </p>         
+        </div>
+        <div class="message">
+          <label for="message-label">Тект письма:</label>
+          <textarea name="text" id="message-label" cols="95" rows="5" placeholder="В свободной форме"></textarea> 
+        <div class="send-feedback">      
           <input class="btn btn-send" type="submit" value="Отправить">
+        </div>
       </form>
     </div>
   </div>
