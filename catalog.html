@@ -13,7 +13,7 @@
     <div class="container">
       <nav class="main-nav">
         <div class="main-nav-wrapper">
-          <div class="header-logo">
+          <div class="header-logo-catalog">
             <a href="index.html">
               <img src="img/nerds-logo.svg" width="160" height="70" alt="Логотип Нёрдс">
             </a>
@@ -25,7 +25,7 @@
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
           <div class="basket">
-            <a href="basket.html">Корзина</a>
+            <a class="icon-basket" href="basket.html">Корзина</a>
           </div>
         </div>
       </nav>  
@@ -45,7 +45,7 @@
                 <div class="range-filter">
                   <div class="range-controls">
                     <div class="scale">
-                      <div class="bar" style="margin-left: 20%; width: 30%"></div>
+                      <div class="bar"></div>
                     </div>
                     <div class="toggle toggle-min"></div>
                     <div class="toggle toggle-max"></div>
@@ -61,15 +61,15 @@
                 <h3>Сетка:</h3>
                 <ul>
                   <li class="filter-option">
-                    <input class="filter-radio" type="radio" name="product-group" id="filter-adaptive" value="adaptive" checked>
+                    <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" id="filter-adaptive" value="adaptive" checked>
                     <label for="filter-adaptive">Адаптивная</label>
                   </li>
                   <li class="filter-option">
-                    <input class="filter-radio" type="radio" name="product-group" id="filter-fixed" value="fixed">
+                    <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" id="filter-fixed" value="fixed">
                     <label for="filter-fixed">Фиксированная</label>
                   </li>
                   <li class="filter-option">
-                    <input class="filter-radio" type="radio" name="product-group" id="filter-rubber" value="rubber">
+                    <input class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" id="filter-rubber" value="rubber">
                     <label for="filter-rubber">Резиновая</label>
                   </li>
                 </ul>
@@ -79,30 +79,28 @@
                 <h3>Особенности:</h3>
                 <ul>
                   <li class="filter-option">
-                    <input class="filter-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
                     <label for="filter-slider">Слайдер</label>
                   </li>
                   <li class="filter-option">
-                    <input class="filter-checkbox" type="checkbox" name="block-features" id="filter-feature">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="block-features" id="filter-feature">
                     <label for="filter-feature">Блок преимуществ</label>                
                   </li>
                   <li class="filter-option">
-                    <input class="filter-checkbox" type="checkbox" name="news" id="filter-news" checked>
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
                     <label for="filter-news">Новости</label>                 
                   </li>
                   <li class="filter-option">
-                    <input class="filter-checkbox" type="checkbox" name="gallery" id="filter-gallery">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="filter-gallery">
                     <label for="filter-gallery">Галерея</label>                
                   </li>
                   <li class="filter-option">
-                    <input class="filter-checkbox" type="checkbox" name="basket-checkbox" id="filter-basket">
+                    <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket-checkbox" id="filter-basket">
                     <label for="filter-basket">Корзина</label>                 
                   </li>
                 </ul>
               </div>
-              <div class="btn btn-filter">
-                <a class="btn-filter-show" href="#">Показать</a>
-              </div>
+              <button class="filter-item-btn btn-filter" type="submit">Показать</button>
             </form>
           </aside>
 
@@ -120,21 +118,21 @@
                   <a href="#">По названию</a>
                 </li>
               </ul>
-              <div class="icons">
-                <a class="icon-down-dir" href="#"></a>
-                <a class="icon-up-dir" href="#"></a>
-              </div>
+              <div class="icons"> 
+                <a class="icon-down" href="#"></a>
+                <a class="icon-up" href="#"></a>
+              </div> 
             </div>
           
             <ul class="catalog-list">
               <li class="catalog-item">
+                <p class="catalog-item-header"></p>
                 <p class="catalog-item-image">
                   <a href="sedona.html">
                     <img src="img/img-sedona.jpg" width="360" height="576" alt="SEDONA">
                   </a>
                 </p>
                 <div class="catalog-item-price">
-                  <!-- <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back"> -->
                   <h3 class="catalog-item-title">SEDONA</h3>
                   <p class="catalog-info-sedona">Информационный сайт<br> для туристов</p>
                   <p>
@@ -143,13 +141,13 @@
                 </div>
               </li>
               <li class="catalog-item">
+                <p class="catalog-item-header"></p>
                 <p class="catalog-item-image">
                   <a href="pink.html">
                     <img src="img/img-pink.jpg" width="360" height="576" alt="PINK">
                   </a>
                 </p>
                 <div class="catalog-item-price">
-                  <!-- <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back"> -->
                   <h3 class="catalog-item-title">PINK APP</h3>
                   <p class="catalog-info-pink">Продуктовый лендинг<br> приложения для iOS и Android</p>
                   <p>
@@ -158,13 +156,13 @@
                 </div>
               </li>
               <li class="catalog-item">
+                <p class="catalog-item-header"></p>
                 <p class="catalog-item-image">
                   <a href="borodinski.html">
                     <img src="img/img-barbershop.jpg" width="360" height="576" alt="BORODINSKI">
                   </a>
                 </p>
                 <div class="catalog-item-price">
-                  <!-- <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back"> -->
                   <h3 class="catalog-item-barber">BARBERSHOP</h3>
                   <p class="catalog-info-barber">Сайт салоны красоты.<br> Для мужчин, да.</p>
                   <p>
@@ -173,13 +171,13 @@
                 </div>
               </li>
               <li class="catalog-item">
+                <p class="catalog-item-header"></p>
                 <p class="catalog-item-image">
                   <a href="mishka.html">
                     <img src="img/img-mishka.jpg" width="360" height="576" alt="MISHKA">
                   </a>
                 </p>
                 <div class="catalog-item-price">
-                  <!-- <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back"> -->
                   <p class="catalog-item-title">MISHKA</p>
                   <h3 class="catalog-info-mishka">Интернет магазин<br> вязанных игрушек</h3>
                   <p>
@@ -188,13 +186,13 @@
                 </div>
               </li>
               <li class="catalog-item">
+                <p class="catalog-item-header"></p>
                 <p class="catalog-item-image">
                   <a href="aplus.html">
                     <img src="img/img-aplus.jpg" width="360" height="576" alt="APLUS">
                   </a>
                 </p>
                 <div class="catalog-item-price">
-                  <!-- <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back"> -->
                   <h3 class="catalog-item-title">A PLUS</h3>
                   <p class="catalog-info">Лендинг курсов повышения<br> квалификации</p>
                   <p>
@@ -203,13 +201,13 @@
                 </div>
               </li>
               <li class="catalog-item">
+                <p class="catalog-item-header"></p>
                 <p class="catalog-item-image">
                   <a href="kvast.html">
                     <img src="img/img-kvast.jpg" width="360" height="576" alt="KVAST">
                   </a>
                 </p>
                 <div class="catalog-item-price">
-                 <!--  <img src="img/pattern-white-back.png" width="360" height="231" alt="pattern-white-back"> -->
                   <h3 class="catalog-item-kvast">КВАСТ</h3>
                   <p class="catalog-info">Промо-сайт производителя<br> крафтового кваса</p>
                   <p>
@@ -257,9 +255,9 @@
     <div class="container">
       <div class="page-footer-items">
       <div class="footer-socials">
-        <a class="social-btn social-btn-vk" href="#"></a>
-        <a class="social-btn social-btn-fb" href="#"></a>
-        <a class="social-btn social-btn-ins" href="#"></a>
+        <a class="social-btn social-btn-vk" href="https://vk.com/" target="_blank"></a>
+        <a class="social-btn social-btn-fb" href="https://www.facebook.com/" target="_blank"></a>
+        <a class="social-btn social-btn-ins" href="https://instagram.com/" target="_blank"></a>
       </div>
       <div class="footer-comments">
         <p class="footer-comment-item">Давайте дружить, это выгодно!</p>
