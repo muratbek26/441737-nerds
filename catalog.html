@@ -11,21 +11,21 @@
 <body>
   <header class="page-header-catalog">
     <div class="container">
-      <nav class="main-nav">
-        <div class="main-nav-wrapper">
+      <nav class="main-nav-catlog">
+        <div class="main-nav-wrapper-catalog">
           <div class="header-logo-catalog">
             <a href="index.html">
               <img src="img/nerds-logo.svg" width="160" height="70" alt="Логотип Нёрдс">
             </a>
           </div>      
-          <ul class="header-site-nav">
+          <ul class="header-site-nav-catalog">
             <li><a href="index.html">Студия</a></li>
-            <li><a href="client.html">Клиент</a></li>
+            <li><a href="client.html">Клиенты</a></li>
             <li class="header-site-nav-current"><a class="active" href="catalog.html">Магазин</a></li>
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
-          <div class="basket">
-            <a class="icon-basket" href="basket.html">Корзина</a>
+          <div class="basket-catalog">
+            <a class="icon-basket-catalog" href="basket.html">Корзина</a>
           </div>
         </div>
       </nav>  
@@ -230,7 +230,7 @@
       </div>
     </section>
 
-    <section class="map-block">
+    <section class="map-block-catalog">
       <h1 class="visually-hidden">Адрес студии</h1>
       <div class="map-image">
         <img src="img/map-group.png" width="1440" height="416" alt="map-image">
@@ -239,9 +239,9 @@
       <div class="contacts">
         <div class="container">
           <div class="contact-address">
-            <p class="contact-title"><span>Nёrds design studio</span></p>
-            <p class="contact-address-item">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
-            <p class="contact-phone">тел. +7(812)275-75-75</p>
+            <span class="contact-title">Nёrds design studio</span>
+            <span class="contact-address-item">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</span>
+            <span class="contact-phone">тел. +7 (812) 275-75-75</span>
           </div>
           <div class="contact-feedback">
             <a class="feedback-item-btn btn-feedback" href="#">Напишите нам</a>
@@ -254,11 +254,11 @@
   <footer class="page-footer">
     <div class="container">
       <div class="page-footer-items">
-      <div class="footer-socials">
-        <a class="social-btn social-btn-vk" href="https://vk.com/" target="_blank"></a>
-        <a class="social-btn social-btn-fb" href="https://www.facebook.com/" target="_blank"></a>
-        <a class="social-btn social-btn-ins" href="https://instagram.com/" target="_blank"></a>
-      </div>
+      <ul class="footer-socials">
+        <li><a class="social-btn social-btn-vk" href="#"></a></li>
+        <li><a class="social-btn social-btn-fb" href="#"></a></li>
+        <li><a class="social-btn social-btn-ins" href="#"></a></li>
+      </ul>
       <div class="footer-comments">
         <p class="footer-comment-item">Давайте дружить, это выгодно!</p>
         <p class="footer-sub-comment">Скидка 10% для друзей из социальных сетей.</p>
@@ -266,30 +266,5 @@
       </div>
     </div>  
   </footer>
-
-  <!-- modal window -->
-  <div class="write-us">
-    <div class="container">
-      <img src="img/write-us-big-white-back.png" width="960" height="590" alt="big-white-back">
-      <p class="write-us-title"><span>Напишите нам</span></p>         
-      <form class="write-us-form" action="#" method="post">
-        <div class="name">
-          <label for="full-name">Ваше имя:</label><br>
-          <input type="text" name="name" id="full-name" placeholder="Имя Фамилия">  
-        </div>
-        <div class="email">
-          <label for="email-address">Ваш e-mail:</label>
-          <input type="email" name="email" id="email-address" placeholder="email@example.com">
-        </div>
-        <div class="message">
-          <label for="message-label">Тект письма:</label>
-          <textarea name="text" id="message-label" cols="95" rows="5" placeholder="В свободной форме"></textarea> 
-        <div class="send-feedback">      
-          <input class="btn btn-send" type="submit" value="Отправить">
-        </div>
-      </form>
-    </div>
-  </div>
-
 </body>
 </html>
