@@ -425,10 +425,10 @@ a {
 /* =============Блок о нас============= */
 
 .about-us {
-	width: 1200px;
+	min-width: 1200px;
 	margin-top: 40px;
 	margin-bottom: 58px;
-	margin-left: 130px;
+	margin-left: 110px;
 } 
 
 .about-us-promo {
@@ -671,16 +671,15 @@ a {
 	width: 100%; 
 	min-height: 416px;
 	position: relative;
-	margin-top: 80px;
-	overflow: hidden; 
+	margin-top: 80px; 
 }
 
 .map-image  {
 	display: block;
-	width: 100%;
 	min-height: 416px;
   margin-top: 0px;
   margin-left: 0px;
+  overflow: hidden;
 } 
 
 .contacts {
