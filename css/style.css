@@ -13,26 +13,6 @@ body {
   color: #283136;
 }
 
-header,
-main,
-footer {
-	font-family: 'Roboto', Arial, sans-serif;
-}
-
-header,
-section,
-aside,
-nav,
-main,
-footer {
-  display: block;
-}
-
-main {
-  background-color: ffffff;
-	color: #283136;
-}
-
 a {
 	text-decoration: none;
 }
@@ -1288,14 +1268,12 @@ input:valid {
   position: relative;
   display: block;
   cursor: pointer;
-  user-select: none; 
 }
 
-.filter-input + label,
 .filter-input + label {
 	color: #283136;
-  opacity: 0.5;
-   margin-left: -10px;
+  opacity: 0.7;
+  margin-left: -10px;
 
 }
 
@@ -1304,6 +1282,7 @@ input:valid {
   color: #283136;
   opacity: 1;
 }
+
 
 .filter-input-radio + label::before {
   content: "";
@@ -1318,14 +1297,12 @@ input:valid {
   background-position: 0 0;
   background-size: 25px;
   background-color: #ffffff;
-  color: #283136;
-  opacity: 0.5; 
 }
 
 
 .filter-input:disabled + label {
   color: #283136;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 
 .filter-input-radio:checked + label::after {
@@ -1351,12 +1328,11 @@ input:valid {
   top: 1px;
   width: 25px;
   height: 25px;
+  background-color: #ffffff; 
   background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 25px;
-  color: #283136;
-  opacity: 0.5; 
 }
 
 .filter-input-checkbox:checked + label::after {
@@ -1571,9 +1547,8 @@ input:valid {
 .catalog-item-image a:hover {
   display: block;
   width: 360px;
-  box-shadow:  0px -5px 10px rgba(0, 0, 0, 0.2),
-               0px -5px 10px rgba(0, 0, 0, 0.2);
-
+  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.2),
+               0px 0px 10px rgba(0, 0, 0, 0.2);
 } 
 
 
@@ -1676,13 +1651,174 @@ input:valid {
 	text-transform: uppercase;
 }
 
+/* ==============Блок карта============ */
+
 .map-block-catalog {
 	width: 100%; 
 	min-height: 416px;
 	position: relative;
-	margin-top: 59px;
-	overflow: hidden; 
+	margin-top: 59px; 
 }
+
+.map-image-catalog  {
+	display: block;
+	min-height: 416px;
+  margin-top: 0px;
+  margin-left: 0px;
+  overflow: hidden;
+} 
+
+.contacts-catalog {
+  position: absolute;
+  top: 54px;
+  left: 140px;
+  min-height: 308px;
+  width: 319px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-left: 45px;
+}
+
+.contact-title-catalog {
+	position: absolute;
+	top: 52px;
+	margin-left: -5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+	color: #000000;
+}
+
+.contact-address-item-catalog {
+	position: absolute;
+	top: 100px;
+	left: 51px;
+	line-height: 20px;
+}
+
+.contact-phone-catalog {
+	position: absolute;
+	top: 154px;
+	left: 50px;
+	white-space: pre;
+}
+
+.btn-feedback-catalog {
+  display: block;
+  position: absolute;
+  top: 211px;
+  left: 50px;
+  padding: 16px 43px;
+  letter-spacing: 0.3px; 
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  background-color: #fb565a;
+  border-radius: 3px;
+  border: none;
+}
+
+/* ============Блок Футер============ */
+
+.page-footer {
+	min-width: 1200px;
+	background-color: #ffffff;
+	margin-top: 80px;
+	
+}
+
+.footer-socials {
+	display: flex;
+	list-style: none;
+    float: left;
+    margin-left: -5px;
+    margin-top: -18px;
+}
+
+.footer-socials li {
+  margin-right: 12px;
+}
+
+.social-btn-vk {
+  background-image: url("../img/vk-icon.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 27px;
+}
+
+.social-btn-fb {
+  background-image: url("../img/fb-icon.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+
+.social-btn-ins {
+  background-image: url("../img/insta-icon.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 22px;
+}
+
+.footer-socials a {
+  font-size: 0;
+  display: inline-block;
+  width: 79px;
+  height: 79px;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  margin-right: 12px;
+  transition: background 0.6s ease; 
+}
+
+.footer-socials a:last-child {
+  margin-right: 0;
+}
+
+.footer-socials a:hover {
+  background-color: #fb565a;
+}
+
+.footer-socials a:active {
+  background-color: #d6494d;
+  box-shadow: inset 0 3px 0 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-socials a:before {
+  font-size: 23px;
+  margin-top: 19px;
+  margin-left: 20px;
+  color: #ffffff;
+}
+
+.footer-comments {
+	float: right;
+	margin-right: -20px;
+	margin-top: -17px;
+}
+
+.footer-comment-item {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 36px;
+	color: #000000;
+	margin-top: 5px;
+	margin-right: 179px;
+	letter-spacing: 0.1px;
+}
+
+.footer-sub-comment {
+	font-size: 16px;
+	color: #444444;
+	margin-right: -20px;
+	margin-top: -26px;
+}
+
 
 
 
