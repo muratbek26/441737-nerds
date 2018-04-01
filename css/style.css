@@ -30,7 +30,6 @@ a {
 .container {
 	width: 1160px;
 	margin: 0 auto;
-	/* padding: 0 10px;  */
 	box-sizing: border-box;
 }
 
@@ -54,7 +53,6 @@ a {
 	padding-top: 45px;
 	margin-bottom: 15px;
 	margin-right: 0px;
-	/* margin-left: 35px;   */
 }
 
 .main-nav-wrapper {
@@ -68,7 +66,6 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	/* width: 500px;  */
 	list-style: none;
 	margin-left: 79px;  
 	padding-top: 47px;
@@ -90,11 +87,8 @@ a {
 }  
 
 .basket {
-	/* display: flex;
-	width: 160px;  */
 	padding-top: 45px;
 	text-transform: uppercase;
-	/* margin-left: 63px; */
 }
 
 .basket a {
@@ -104,10 +98,6 @@ a {
 .icon-basket {
  position: relative;
  padding-left: 57px;
-/*  background-image: url("../img/cart-icon.svg");
-background-position: 10% 45%;
-background-repeat: no-repeat;
-background-size: 15px; */
 } 
 
 .header-site-nav a,
@@ -202,8 +192,7 @@ background-size: 15px; */
 
 .slider-list {
   margin: 0;
-  padding: 0;
-  /* margin-left: 35px; */ 
+  padding: 0; 
   list-style: none;
 }
 
@@ -311,10 +300,8 @@ background-size: 15px; */
 
 .features-list {
 	display: flex;
-  /* justify-content: space-between; */
   margin: 0;
-  padding: 0;
-  /* margin-left: 35px; */ 
+  padding: 0; 
  	list-style: none;
 }
 
@@ -411,17 +398,13 @@ background-size: 15px; */
 
 /*=============Линия разделитель=========== */
 
-.content-devide {
- /*  margin-left: 35px; */  
+.content-devide { 
 	opacity: 0.5;
 }
 /* =============Блок о нас============= */
 
 .about-us {
-	/* min-width: 1200px; */
 	margin-top: 40px;
-	/* margin-bottom: 58px;
-	margin-left: 110px;   */
 } 
 
 .about-us-promo {
@@ -434,8 +417,7 @@ background-size: 15px; */
 	font-size: 45px;
   line-height: 45px;
   color: #000000;
-  font-weight: bold;
- /*  margin-left: -20px; */ 
+  font-weight: bold; 
   margin-top: 34px;
   margin-bottom: 33px;
 }
@@ -444,8 +426,6 @@ background-size: 15px; */
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 38px;
-	/* margin-top: -11px;
-	 margin-left: -20px */ 
 }
 
 .about-us-info h3 {
@@ -453,8 +433,7 @@ background-size: 15px; */
 	font-size: 16px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: #000000;
-	/* margin-left: -20px; */ 
+	color: #000000; 
 	margin-bottom: 25px;
 	letter-spacing: 0.1px;
 }
@@ -464,8 +443,7 @@ background-size: 15px; */
 	font-size: 16px;
 	line-height: 48px;
 	margin: 0;
-	padding: 0;
-	/* margin-left: -19px; */ 
+	padding: 0; 
 }
 
 .what-we-do li {
@@ -566,13 +544,6 @@ background-size: 15px; */
 	line-height: 19px;
 }
 
-/*=============Линия разделитель=========== */
-
-.content-devide-2 {
-  /* margin-left: 35px;  */
-	opacity: 0.5;
-}
-
 /* ==============Блок сайтов============ */
 
 .sites {
@@ -582,7 +553,6 @@ background-size: 15px; */
 
 .list-of-sites {
 	display: flex;
-  /* justify-content: space-between; */
   flex-wrap: nowrap;
 	list-style: none;
 	padding-left: 30px; 
@@ -650,13 +620,6 @@ background-size: 15px; */
 	opacity: 0.1;
 }
 
-/*=============Линия разделитель=========== */
-
-.content-devide-3 {
- /*  margin-left: 35px; */ 
-	opacity: 0.5;
-	/* margin-top: -136px; */
-}
 
 /* ==============Блок карта============ */
 
@@ -666,24 +629,13 @@ background-size: 15px; */
 	position: relative;
 	margin-top: 80px; 
 	background-image: url("../img/map-group.png");
+	background-position: 50% 50%;
 	padding-top: 55px;
+	margin-bottom: 87px;
 }
 
-/* .map-image  {
-	display: block;
-	min-height: 416px;
-  margin-top: 0px;
-  margin-left: 0px;
-  overflow: hidden;
-}  */
-
 .contacts {
-  /* position: absolute;
-  top: 54px;
-  left: 140px;
-  min-height: 308px;
-  width: 319px; */
-  
+  width: 320px;
   background-color: #ffffff;
   box-sizing: border-box;
   padding-top: 34px;
@@ -694,9 +646,6 @@ background-size: 15px; */
 }
 
 .contact-title {
-	/* position: absolute;
-	top: 52px;
-	margin-left: -5px; */
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -705,17 +654,11 @@ background-size: 15px; */
 }
 
 .contacts .contact-address-item {
-	/* position: absolute;
-	top: 100px;
-	left: 51px; */
 	line-height: 20px;
 	margin-bottom: 0px;
 }
 
 .contact-phone {
-	/* position: absolute;
-	top: 154px;
-	left: 50px; */
 	white-space: pre;
 	margin-top: 14px;
 	margin-bottom: 33px;
@@ -723,9 +666,6 @@ background-size: 15px; */
 
 .btn-feedback {
   display: inline-block;
-  /* position: absolute;
-  top: 211px;
-  left: 50px; */
   padding: 16px 43px;
   letter-spacing: 0.3px; 
   font-size: 16px;
@@ -756,17 +696,10 @@ background-size: 15px; */
 .footer-socials {
 	display: flex;
 	list-style: none;
-  /* float: left;
-  margin-left: -5px;
-  margin-top: -18px; */
   padding-left: 0px;
   margin-top: 0;
   margin-right: 128px;
 }
-
-/* .footer-socials li {
-  margin-right: 12px;
-} */
 
 .social-btn-vk {
   background-image: url("../img/vk-icon.svg");
@@ -820,12 +753,6 @@ background-size: 15px; */
   color: #ffffff;
 }
 
-/* .footer-comments {
-	float: right;
-	margin-right: -20px;
-	margin-top: -17px;
-} */
-
 .footer-comment-item {
 	font-weight: bold;
 	font-size: 36px;
@@ -842,6 +769,7 @@ background-size: 15px; */
 	margin-right: -20px;
 	margin-top: -26px;
 }
+
 /* ===========Модульное окно============ */
 
 .modal {
@@ -1038,7 +966,6 @@ input:valid {
 .main-content {
 	display: flex;
 	justify-content: space-between;
-	/* margin-left: 35px; */
 }
 
 .filter-item {
@@ -1525,6 +1452,7 @@ input:valid {
 .pagination-buttons {
   margin-top: 44px;
   margin-left: 8px;
+  margin-bottom: -23px;
 }
 
 .pagination-list {
@@ -1572,78 +1500,6 @@ input:valid {
 	width: 160px;
 	padding-left: 80px;
 	text-transform: uppercase;
-}
-
-/* ==============Блок карта============ */
-
-.map-block-catalog {
-	width: 100%; 
-	min-height: 416px;
-	position: relative;
-	margin-top: 59px; 
-}
-
-.map-image-catalog  {
-	display: block;
-	min-height: 416px;
-  margin-top: 0px;
-  margin-left: 0px;
-  overflow: hidden;
-} 
-
-.contacts-catalog {
-  position: absolute;
-  top: 54px;
-  left: 140px;
-  min-height: 308px;
-  width: 319px;
-  background-color: #ffffff;
-  box-sizing: border-box;
-  padding-top: 30px;
-  padding-left: 45px;
-}
-
-.contact-title-catalog {
-	position: absolute;
-	top: 52px;
-	margin-left: -5px;
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-	color: #000000;
-}
-
-.contact-address-item-catalog {
-	position: absolute;
-	top: 100px;
-	left: 51px;
-	line-height: 20px;
-}
-
-.contact-phone-catalog {
-	position: absolute;
-	top: 154px;
-	left: 50px;
-	white-space: pre;
-}
-
-.btn-feedback-catalog {
-  display: block;
-  position: absolute;
-  top: 211px;
-  left: 50px;
-  padding: 16px 43px;
-  letter-spacing: 0.3px; 
-  font-size: 16px;
-  line-height: 18px;
-  color: #ffffff;
-  cursor: pointer;
-  text-transform: uppercase;
-  text-align: center;
-  text-decoration: none;
-  background-color: #fb565a;
-  border-radius: 3px;
-  border: none;
 }
 
 /* ============Блок Футер============ */
