@@ -25,7 +25,7 @@ a {
   background-color: #eeeeee;
   min-width: 1200px;
   min-height: 545px; 
-  margin-bottom: 77px;
+  margin-bottom: 80px;
 } 
 
 .container {
@@ -51,7 +51,7 @@ a {
 	width: 160px;
 	height: 70px;
 	color: #303030;
-	padding-top: 45px;
+	padding-top: 47px;
 	margin-bottom: 15px;
 	margin-right: 0px;
 }
@@ -88,7 +88,7 @@ a {
 }  
 
 .basket {
-	padding-top: 45px;
+	padding-top: 47px;
 	text-transform: uppercase;
 }
 
@@ -263,13 +263,13 @@ a {
 .slider-item p {
   max-width: 430px;
   margin: 0;
-  margin-bottom: 39px;
+  margin-bottom: 40px;
 }
 
 .btn-slider {
   display: block;
-  width: 240px;
-  padding: 17px 0 15px 0;
+  width: 241px;
+  padding: 18px 0 14px 0;
   font-size: 16px;
   line-height: 18px;
   letter-spacing: 0.1px;
@@ -666,12 +666,12 @@ a {
 .contact-phone {
 	white-space: pre;
 	margin-top: 14px;
-	margin-bottom: 33px;
+	margin-bottom: 34px;
 }
 
 .btn-feedback {
   display: inline-block;
-  padding: 16px 42px;
+  padding: 16px 43px;
   letter-spacing: 0.3px; 
   font-size: 16px;
   line-height: 18px;
@@ -767,7 +767,7 @@ a {
 	font-size: 36px;
 	line-height: 36px;
 	color: #000000;
-	margin-top: 5px;
+	margin-top: 6px;
 	margin-right: 179px;
 	letter-spacing: 0.1px;
 }
