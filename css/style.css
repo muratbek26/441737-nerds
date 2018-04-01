@@ -1019,127 +1019,22 @@ input:valid {
   margin-bottom: 52px;
 }
 
-.header-logo-catalog {
-	width: 160px;
-	height: 70px;
-	color: #303030;
-	margin-top: 46px;
-	margin-left: 35px; 
-}
-
-.header-logo-catalog a:hover {
-  opacity: 0.5;
-}
-
-.header-logo-catalog a:active {
-  opacity: 0.2;
-}
-
-.main-nav-wrapper-catalog {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-  width: 100%;
-}
-
-.header-site-nav-catalog {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	width: 500px;
-	list-style: none;
-	margin-left: 60px;
-	padding-top: 62px;
-	text-transform: uppercase;
-}
-
-.header-site-nav-catalog li {
-	padding-left: 3px;
-}
-
-.header-site-nav-catalog li:nth-child(4) {
-  margin-left: -2px;
-}
-
-.basket-catalog {
-	display: flex;
-	width: 160px;
-	padding-top: 61px;
-	text-transform: uppercase;
-}
-
-.basket-catalog a {
-	margin-left: 84px;
-}
-
-.icon-basket-catalog {
-  position: relative;
-  padding-left: 57px;
-  background-image: url("../img/cart-icon.svg");
-  background-position: 10% 45%;
-  background-repeat: no-repeat;
-  background-size: 15px;
-} 
-
-.header-site-nav-catalog a,
-.basket-catalog a {
-	font-weight: bold;
-  color: #000000;
-}
-
-.header-site-nav-catalog a:hover,
-.basket-catalog a:hover {
-	color: #fb565a;
-}
-
-.header-site-nav-catalog a:focus,
-.basket-catalog a:focus {
-  opacity: 0.5;
-}
-
-.header-site-nav-catalog li a:active,
-.basket-catalog a:active {
-  color: #bdbdbd;
-}
-
-.header-site-nav-catalog li a,
-.basket-catalog a {
-	padding-right: 41px;
-	font-size: inherit;
-  position: relative; 
-  color: #000000;
-  font-weight: bold;
-  letter-spacing: 0.4px; 
-  transition: color 0.6s ease;
-} 
-
-.header-site-nav-catalog li a.active:after
-/* .basket a */ {
-  content: "";
-  display: block;
-  height: 2px;
-  background: #fb565a;
-  position: absolute; 
-  left: 1px;
-  right: 45px;
-  bottom: -11px;
-}
-
 .page-header-catalog h1 {
  	font-size: 55px;
  	line-height: 55px;
  	text-align: center;
  	color: #000000;
- 	margin-left: 88px;
- 	margin-top: 74px;
+ 	margin-left: 0px;
+ 	margin-top: 61px;
  }
+
 
 /* ==============Блок Сайдбар============== */
 
 .main-content {
 	display: flex;
 	justify-content: space-between;
-	margin-left: 35px;
+	/* margin-left: 35px; */
 }
 
 .filter-item {
@@ -1425,7 +1320,7 @@ input:valid {
 	text-transform: uppercase;
 	margin-top: 0; 
 	margin-bottom: 30px; 
-	margin-left: 60px;
+	margin-left: 4px;
 }
 
  .sorting-list {
@@ -1436,7 +1331,7 @@ input:valid {
   margin: 0;
   margin-top: -55px; 
   margin-bottom: 80px;
-  margin-left: 450px;
+  margin-left: 342px;
   list-style: none;
   text-transform: uppercase;
 } 
@@ -1485,7 +1380,7 @@ input:valid {
 	left: 680px;  
 	width: 10px;
 	height: 10px;
-  padding-left: 200px; 
+  padding-left: 89px; 
   background-image: url("../img/icon-down-dir.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1495,11 +1390,11 @@ input:valid {
 .icons .icon-up {
 	position: absolute;
 	top: -99px;
-	left: 784px;  
+	left: 754px;  
 	width: 10px;
 	height: 10;
 	opacity: 0.3;
-	padding-left: 50px;
+	padding-left: 0px;
   background-image: url("../img/icon-up-dir.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -1548,14 +1443,14 @@ input:valid {
 }
 
 .catalog-item-image a {
-	margin-left: 60px;
-}
+	margin-left: 5px;
+} 
 
 .catalog-item-header {
 	display: flex;
 	width: 360px;
 	height: 40px;
-	margin-left: 60px; 
+	margin-left: 5px; 
 	margin-bottom: -16px;
 	background-image: url("../img/browser.svg");
   background-position: 50% 50%;
@@ -1582,7 +1477,7 @@ input:valid {
 	display: none;
 	position: absolute;
 	top: 400px;
-	left: 61px;
+	left: 5px;
 	width: 360px;
 	min-height: 231px;
 	background-color: #eeeeee;
@@ -1624,8 +1519,8 @@ input:valid {
 /* ===============Кнопки пагинации===========*/
 
 .pagination-buttons {
-  margin-top: 42px;
-  margin-left: 62px;
+  margin-top: 44px;
+  margin-left: 8px;
 }
 
 .pagination-list {
