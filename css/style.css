@@ -19,9 +19,9 @@ a {
 
 /* ==========Хедер========== */
 .page-header {
-  background-color: #eeeeee;
   margin: 0;
   padding: 0;
+  background-color: #eeeeee;
   min-width: 1200px;
   min-height: 545px; 
   margin-bottom: 78px;
@@ -30,7 +30,7 @@ a {
 .container {
 	width: 1160px;
 	margin: 0 auto;
-	padding: 0 10px;
+	/* padding: 0 10px;  */
 	box-sizing: border-box;
 }
 
@@ -51,10 +51,10 @@ a {
 	width: 160px;
 	height: 70px;
 	color: #303030;
-	padding-top: 49px;
+	padding-top: 45px;
 	margin-bottom: 15px;
-	margin-right: 22px;
-	margin-left: 35px;
+	margin-right: 0px;
+	/* margin-left: 35px;   */
 }
 
 .main-nav-wrapper {
@@ -68,11 +68,12 @@ a {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 500px;
+	/* width: 500px;  */
 	list-style: none;
-	margin-left: 35px;
-	padding-top: 48px;
+	/* margin-left: 35px;  */
+	padding-top: 47px;
 	text-transform: uppercase;
+	padding-left: 0;
 }
 
 .header-site-nav li {
@@ -83,16 +84,22 @@ a {
     margin-left: -1px;
 }
 
+.basket a {
+	margin: 0;
+	padding: 0;
+}  
+
 .basket {
-	display: flex;
-	width: 160px;
-	padding-top: 48px;
+	/* display: flex;
+	width: 160px;  */
+	padding-top: 47px;
 	text-transform: uppercase;
+	/* margin-left: 63px; */
 }
 
 .basket a {
 	margin-left: 82px;
-}
+} 
 
 .icon-basket {
   position: relative;
@@ -191,7 +198,7 @@ a {
 .slider-list {
   margin: 0;
   padding: 0;
-  margin-left: 35px;
+  /* margin-left: 35px; */ 
   list-style: none;
 }
 
@@ -299,20 +306,21 @@ a {
 
 .features-list {
 	display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: 0;
   padding: 0;
-  margin-left: 35px;
+  /* margin-left: 35px; */ 
  	list-style: none;
 }
 
 .features-list li:nth-child(3) {
-	margin-right: 5px;
+	margin-right: 0px;
 }
 
 .feature-item {
   width: 300px;
   min-height: 146px;
+  margin-right: 100px;
 }
 
 .feature-item h3 {
@@ -398,22 +406,23 @@ a {
 
 /*=============Линия разделитель=========== */
 
-.content-devide-1 {
-  margin-left: 35px; 
+.content-devide {
+ /*  margin-left: 35px; */  
 	opacity: 0.5;
 }
 /* =============Блок о нас============= */
 
 .about-us {
-	min-width: 1200px;
+	/* min-width: 1200px; */
 	margin-top: 40px;
-	margin-bottom: 58px;
-	margin-left: 110px;
+	/* margin-bottom: 58px;
+	margin-left: 110px;   */
 } 
 
 .about-us-promo {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 58px;
 }
 
 .content-promo {
@@ -421,16 +430,17 @@ a {
   line-height: 45px;
   color: #000000;
   font-weight: bold;
-  margin-left: -20px;
+ /*  margin-left: -20px; */ 
   margin-top: 34px;
+  margin-bottom: 33px;
 }
 
 .content-sub-promo {
 	font-size: 16px;
 	line-height: 24px;
 	margin-bottom: 38px;
-	margin-top: -11px;
-	margin-left: -20px
+	/* margin-top: -11px;
+	 margin-left: -20px */ 
 }
 
 .about-us-info h3 {
@@ -439,7 +449,7 @@ a {
 	line-height: 24px;
 	text-transform: uppercase;
 	color: #000000;
-	margin-left: -20px;
+	/* margin-left: -20px; */ 
 	margin-bottom: 25px;
 	letter-spacing: 0.1px;
 }
@@ -450,14 +460,14 @@ a {
 	line-height: 48px;
 	margin: 0;
 	padding: 0;
-	margin-left: -19px;
+	/* margin-left: -19px; */ 
 }
 
 .what-we-do li {
   margin-bottom: 22px;
   font-size: 16px;
   line-height: 22px;
-  padding-left: 37px;
+  padding-left: 37px; 
 }
 
 .what-we-do li:first-child {
@@ -484,7 +494,7 @@ a {
 	line-height: 24px;
 	text-transform: uppercase;
 	color: #000000;
-	margin-left: 16px;
+	margin-left: 16px; 
 	margin-top: 30px;
 	margin-bottom: 40px;
 }
@@ -509,7 +519,7 @@ a {
 }
 
 .percent-item-1 sup {
-	margin-left: -1px;
+	margin-left: -1px; 
 	font-size: 28px;
 }
 
@@ -520,11 +530,11 @@ a {
 
 .percent-item-2 {
 	margin-top: -101px;
-	margin-left: 119px;
+	margin-left: 119px; 
 }
 
 .percent-item-2 sup {
-    margin-left: -1px;
+  margin-left: -1px; 
 	font-size: 28px;
 }
 
@@ -540,7 +550,7 @@ a {
 }
 
 .percent-item-3 sup {
-    margin-left: -1px;
+  margin-left: -1px; 
 	font-size: 28px;
 }
 
@@ -554,7 +564,7 @@ a {
 /*=============Линия разделитель=========== */
 
 .content-devide-2 {
-  margin-left: 35px; 
+  /* margin-left: 35px;  */
 	opacity: 0.5;
 }
 
@@ -567,32 +577,41 @@ a {
 
 .list-of-sites {
 	display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: nowrap;
 	list-style: none;
-	font-size: 108px;
- 	line-height: 15px;
- 	margin-left: -10px;
+	/* font-size: 108px;
+	  	line-height: 15px;
+	  	margin-left: -10px; */
+	padding-left: 30px; 
+	padding-top: 45px;
+	padding-bottom: 6px;
 }
 
 .site-htmlacademy {
-	margin-top: -45px;
-   margin-left: 35px;
+	/* margin-top: -45px;
+	  margin-left: 35px;  */
+	  margin-right: 96px;
 }
 
 .site-borodinski {
-	margin-top: -61px;
-	margin-left: -26px;
+	/* margin-top: -61px;
+	margin-left: -26px;  */
+	 margin-right: 103px;
+	 margin-top: -16px;
 }
 
 .site-pink {
-	margin-top: -43px;
-	margin-left: -20px;
+	/* margin-top: -43px;
+	 margin-left: -20px; */ 
+	  margin-right: 122px;
+	  margin-top: 4px;
 }
 
 .site-mishka {
-	margin-top: -55px;
-	margin-right: -15px;
+	/* margin-top: -55px;
+	margin-right: -15px; */
+	margin-top: -10px;
 }
 
 .right-border-1 {
@@ -600,8 +619,8 @@ a {
   border-right: 2px solid #a6a6a6; 
   width: 2px;
   height: 52px; 
-  left: 312px;
-  top: -60px;
+  left: 278px;
+  top: 32px;
   opacity: 0.2;
 } 
 
@@ -610,8 +629,8 @@ a {
   border-right: 2px solid #a6a6a6; 
   width: 2px;
   height: 52px; 
-  left: 612px;
-  top: -60px;
+  left: 578px;
+  top: 32px;
   opacity: 0.2;
 } 
 
@@ -620,8 +639,8 @@ a {
   border-right: 2px solid #a6a6a6; 
   width: 2px;
   height: 52px; 
-  left: 912px;
-  top: -60px;
+  left: 878px;
+  top: 32px;
   opacity: 0.2;
 } 
 
@@ -640,9 +659,9 @@ a {
 /*=============Линия разделитель=========== */
 
 .content-devide-3 {
-  margin-left: 35px; 
+ /*  margin-left: 35px; */ 
 	opacity: 0.5;
-	margin-top: -136px;
+	/* margin-top: -136px; */
 }
 
 /* ==============Блок карта============ */
@@ -722,21 +741,28 @@ a {
 .page-footer {
 	min-width: 1200px;
 	background-color: #ffffff;
-	margin-top: 80px;
-	
+	margin-top: 96px;
+	margin-left: 12px;
+}
+
+.page-footer-items {
+	display: flex;
 }
 
 .footer-socials {
 	display: flex;
 	list-style: none;
-    float: left;
-    margin-left: -5px;
-    margin-top: -18px;
+  /* float: left;
+  margin-left: -5px;
+  margin-top: -18px; */
+  padding-left: 0px;
+  margin-top: 0;
+  margin-right: 128px;
 }
 
-.footer-socials li {
+/* .footer-socials li {
   margin-right: 12px;
-}
+} */
 
 .social-btn-vk {
   background-image: url("../img/vk-icon.svg");
@@ -790,11 +816,11 @@ a {
   color: #ffffff;
 }
 
-.footer-comments {
+/* .footer-comments {
 	float: right;
 	margin-right: -20px;
 	margin-top: -17px;
-}
+} */
 
 .footer-comment-item {
 	font-weight: bold;
@@ -1028,11 +1054,11 @@ input:valid {
 }
 
 .header-site-nav-catalog li {
-	 padding-left: 3px;
+	padding-left: 3px;
 }
 
 .header-site-nav-catalog li:nth-child(4) {
-    margin-left: -2px;
+  margin-left: -2px;
 }
 
 .basket-catalog {
@@ -1110,7 +1136,7 @@ input:valid {
 
 /* ==============Блок Сайдбар============== */
 
-  .main-content {
+.main-content {
 	display: flex;
 	justify-content: space-between;
 	margin-left: 35px;
@@ -1382,12 +1408,10 @@ input:valid {
 
 .catalog {
   width: 765px;
-  /* position: relative; */
 }
 
 .sorting {
   min-width: 360px;
-  /* height: 50px; */
   margin-bottom: -44px;
 }
 
@@ -1735,9 +1759,9 @@ input:valid {
 .footer-socials {
 	display: flex;
 	list-style: none;
-    float: left;
-    margin-left: -5px;
-    margin-top: -18px;
+  float: left;
+  margin-left: -5px;
+  margin-top: -18px;
 }
 
 .footer-socials li {
