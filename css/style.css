@@ -24,7 +24,7 @@ a {
   background-color: #eeeeee;
   min-width: 1200px;
   min-height: 545px; 
-  margin-bottom: 78px;
+  margin-bottom: 77px;
 } 
 
 .container {
@@ -313,6 +313,10 @@ a {
   width: 300px;
   min-height: 146px;
   margin-right: 100px;
+}
+
+.feature-item:first-child {
+	margin-left: 1px;
 }
 
 .feature-item h3 {
@@ -1396,13 +1400,15 @@ input:valid {
 
 .catalog-item-header:hover {
 	opacity: 1;
+	box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.2),
+               0px 0px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .catalog-item-image a:hover {
   display: block;
   width: 360px;
   box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.2),
-               0px 0px 10px rgba(0, 0, 0, 0.2);
+               0px 0px 10px rgba(0, 0, 0, 0.2); 
 } 
 
 
