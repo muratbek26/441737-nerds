@@ -144,9 +144,9 @@ a {
   height: 2px;
   background: #fb565a;
   position: absolute; 
-  left: 0px;
-  right: 42px;
-  bottom: -5px;
+  left: 1px;
+  right: 44px;
+  margin-top: 4px; 
 }
 
 /* ============Слайдер============= */
@@ -158,7 +158,7 @@ a {
 
 .slider-controls {
   position: absolute;
-  left: 54%;
+  left: 50%;
   bottom: 104px;
   z-index: 100;
   width: 160px;
@@ -262,7 +262,7 @@ a {
 .slider-item p {
   max-width: 430px;
   margin: 0;
-  margin-bottom: 38px;
+  margin-bottom: 39px;
 }
 
 .btn-slider {
@@ -631,7 +631,7 @@ a {
 	background-image: url("../img/map-group.png");
 	background-position: 50% 50%;
 	padding-top: 55px;
-	margin-bottom: 87px;
+	margin-bottom: 70px;
 }
 
 .contacts {
@@ -666,7 +666,7 @@ a {
 
 .btn-feedback {
   display: inline-block;
-  padding: 16px 43px;
+  padding: 16px 42px;
   letter-spacing: 0.3px; 
   font-size: 16px;
   line-height: 18px;
@@ -682,11 +682,11 @@ a {
 
 /* ============Блок Футер============ */
 
-.page-footer {
+ .page-footer {
 	min-width: 1200px;
 	background-color: #ffffff;
 	margin-top: 70px;
-	margin-left: 12px;
+	margin-left: 0px;
 }
 
 .page-footer-items {
@@ -696,9 +696,13 @@ a {
 .footer-socials {
 	display: flex;
 	list-style: none;
-  padding-left: 0px;
-  margin-top: 0;
+	  padding-left: 0px;
+	  margin-top: 0;
   margin-right: 128px;
+}
+
+.footer-socials li {
+	margin-right: 12px;
 }
 
 .social-btn-vk {
@@ -769,7 +773,7 @@ a {
 	margin-right: -20px;
 	margin-top: -26px;
 }
-
+ 
 /* ===========Модульное окно============ */
 
 .modal {
@@ -1501,103 +1505,6 @@ input:valid {
 	padding-left: 80px;
 	text-transform: uppercase;
 }
-
-/* ============Блок Футер============ */
-
-.page-footer {
-	min-width: 1200px;
-	background-color: #ffffff;
-	margin-top: 80px;
-	
-}
-
-.footer-socials {
-	display: flex;
-	list-style: none;
-  float: left;
-  margin-left: -5px;
-  margin-top: -18px;
-}
-
-.footer-socials li {
-  margin-right: 12px;
-}
-
-.social-btn-vk {
-  background-image: url("../img/vk-icon.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: 27px;
-}
-
-.social-btn-fb {
-  background-image: url("../img/fb-icon.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: 12px;
-}
-
-.social-btn-ins {
-  background-image: url("../img/insta-icon.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: 22px;
-}
-
-.footer-socials a {
-  font-size: 0;
-  display: inline-block;
-  width: 79px;
-  height: 79px;
-  background-color: #e1e1e1;
-  border-radius: 50%;
-  margin-right: 12px;
-  transition: background 0.6s ease; 
-}
-
-.footer-socials a:last-child {
-  margin-right: 0;
-}
-
-.footer-socials a:hover {
-  background-color: #fb565a;
-}
-
-.footer-socials a:active {
-  background-color: #d6494d;
-  box-shadow: inset 0 3px 0 0 rgba(0, 0, 0, 0.15);
-}
-
-.footer-socials a:before {
-  font-size: 23px;
-  margin-top: 19px;
-  margin-left: 20px;
-  color: #ffffff;
-}
-
-.footer-comments {
-	float: right;
-	margin-right: -20px;
-	margin-top: -17px;
-}
-
-.footer-comment-item {
-	font-weight: bold;
-	font-size: 36px;
-	line-height: 36px;
-	color: #000000;
-	margin-top: 5px;
-	margin-right: 179px;
-	letter-spacing: 0.1px;
-}
-
-.footer-sub-comment {
-	font-size: 16px;
-	color: #444444;
-	margin-right: -20px;
-	margin-top: -26px;
-}
-
 
 .icon-basket:before {
     content: "";
