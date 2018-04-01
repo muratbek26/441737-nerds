@@ -138,8 +138,7 @@ a {
 	padding-left: 36px;
 }
 
-.header-site-nav li a.active:after
-/* .basket a */ {
+.header-site-nav li a.active:after {
   content: "";
   display: block;
   height: 2px;
@@ -1038,7 +1037,7 @@ input:valid {
   left: 18px;
   width: 4px;
   height: 4px;
-  background-image: url("../img/filter-button");
+  background-image: url("../img/filter-button.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 4px;
@@ -1049,7 +1048,7 @@ input:valid {
   left: 160px;
   width: 4px;
   height: 4px;
-  background-image: url("../img/filter-button");
+  background-image: url("../img/filter-button.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: 4px;
