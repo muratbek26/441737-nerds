@@ -97,15 +97,15 @@ a {
 } 
 
 .icon-basket {
- position: relative;
- padding-left: 57px;
+  position: relative;
+  padding-left: 57px;
 } 
 
 .header-site-nav a,
 .basket a {
-	font-weight: bold;
+	font-weight: 400; 
   color: #000000;
-}
+} 
 
 .header-site-nav a:hover,
 .basket a:hover {
@@ -117,18 +117,18 @@ a {
   opacity: 0.5;
 }
 
-.header-site-nav li a:active,
+.header-site-nav a:active,
 .basket a:active {
   color: #bdbdbd;
 }
 
-.header-site-nav li a,
+.header-site-nav a,
 .basket a {
 	padding-right: 41px;
 	font-size: inherit;
   position: relative; 
   color: #000000;
-  font-weight: bold;
+  font-weight: 400; 
   letter-spacing: 0.4px; 
   transition: color 0.6s ease;
 } 
@@ -138,7 +138,7 @@ a {
 	padding-left: 36px;
 }
 
-.header-site-nav li a.active:after {
+.header-site-nav .active:after {
   content: "";
   display: block;
   height: 2px;
@@ -256,7 +256,8 @@ a {
   margin-bottom: 25px;
   font-size: 55px;
   line-height: 55px;
-  font-weight: 500;
+  font-weight: 400;
+  color: #000000;
 }
 
 .slider-item p {
@@ -403,7 +404,7 @@ a {
 /*=============Линия разделитель=========== */
 
 .content-devide { 
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
 /* =============Блок о нас============= */
@@ -422,9 +423,11 @@ a {
 	font-size: 45px;
   line-height: 45px;
   color: #000000;
-  font-weight: bold; 
+  font-weight: 400; 
   margin-top: 34px;
   margin-bottom: 33px;
+  letter-spacing: 0.3px;
+  margin-left: 2px;
 }
 
 .content-sub-promo {
@@ -441,6 +444,7 @@ a {
 	color: #000000; 
 	margin-bottom: 25px;
 	letter-spacing: 0.1px;
+	margin-left: 1px;
 }
 
 .what-we-do {
@@ -562,7 +566,7 @@ a {
 	list-style: none;
 	padding-left: 30px; 
 	padding-top: 45px;
-	padding-bottom: 21px;
+	padding-bottom: 22px;
 }
 
 .site-htmlacademy {
@@ -686,7 +690,7 @@ a {
 
 /* ============Блок Футер============ */
 
- .page-footer {
+.page-footer {
 	min-width: 1200px;
 	background-color: #ffffff;
 	margin-top: 70px;
@@ -788,7 +792,7 @@ a {
 .modal-window {
 	display: none;
   position: absolute;
-  top: 1835px;
+  top: 1705px;
   left: 193px;
   width: 960px;
   height: 590px; 
@@ -966,6 +970,7 @@ input:valid {
  	color: #000000;
  	margin-left: 0px;
  	margin-top: 61px;
+ 	font-weight: 400;
  }
 
 /* ==============Блок Сайдбар============== */
@@ -1034,24 +1039,24 @@ input:valid {
 
 .range-controls .toggle-min {
 	top: 30px;
-  left: 18px;
+  left: 19px;
   width: 4px;
   height: 4px;
   background-image: url("../img/filter-button.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: 4px;
+  background-size: 0;
 }
 
 .range-controls .toggle-max {
 	top: 30px;
-  left: 160px;
+  left: 161px;
   width: 4px;
   height: 4px;
   background-image: url("../img/filter-button.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: 4px;
+  background-size: 0;
 }
 
 .price-controls {
@@ -1213,7 +1218,7 @@ input:valid {
   margin-top: -2px;
   font-size: 16px;
   line-height: 18px;
-  font-weight: bold;
+  font-weight: 400;
   color: #000000;
   text-transform: uppercase;
   text-align: center;
@@ -1259,7 +1264,7 @@ input:valid {
 	margin-left: 4px;
 }
 
- .sorting-list {
+.sorting-list {
   display: flex;
   justify-content: center; 
   flex-wrap: wrap;
@@ -1346,7 +1351,6 @@ input:valid {
 .icon-up:active {
 	opacity: 1;
 }
-
 
 /* ===============Макеты работ============= */
 
@@ -1483,6 +1487,7 @@ input:valid {
   color: #000000;
   background-color: #eeeeee;
   font-weight: bold;
+  border-radius: 3%;
 }
 
 .pagination-item:not(:first-child) a:hover {
