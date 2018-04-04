@@ -146,7 +146,7 @@ a {
   position: absolute; 
   left: 1px;
   right: 44px;
-  margin-top: 4px; 
+  margin-top: 3px; 
 }
 
 /* ============Слайдер============= */
@@ -403,8 +403,18 @@ a {
 
 /*=============Линия разделитель=========== */
 
-.content-devide { 
+.content-devide-1, 
+.content-devide-2,
+.content-devide-3 { 
 	opacity: 0.2;
+}
+
+.content-devide-2 {
+  margin-bottom: 61px; 
+}
+
+.content-devide-3 {
+	margin-bottom: 80px; 
 }
 
 /* =============Блок о нас============= */
@@ -416,7 +426,7 @@ a {
 .about-us-promo {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 58px;
+  margin-bottom: 59px;
 }
 
 .content-promo {
@@ -555,6 +565,10 @@ a {
 
 /* ==============Блок сайтов============ */
 
+.examples-of-sites {
+	margin-bottom: 19px;
+} 
+
 .sites {
   position: relative;
   min-height: 100px; 
@@ -565,8 +579,6 @@ a {
   flex-wrap: nowrap;
 	list-style: none;
 	padding-left: 30px; 
-	padding-top: 45px;
-	padding-bottom: 22px;
 }
 
 .site-htmlacademy {
@@ -593,7 +605,7 @@ a {
   width: 2px;
   height: 52px; 
   left: 278px;
-  top: 32px;
+  top: -14px;
   opacity: 0.2;
 } 
 
@@ -603,7 +615,7 @@ a {
   width: 2px;
   height: 52px; 
   left: 578px;
-  top: 32px;
+  top: -14px;
   opacity: 0.2;
 } 
 
@@ -613,7 +625,7 @@ a {
   width: 2px;
   height: 52px; 
   left: 878px;
-  top: 32px;
+  top: -14px;
   opacity: 0.2;
 } 
 
@@ -633,24 +645,24 @@ a {
 
 .map-block {
 	width: 100%; 
-	min-height: 361px;
+	min-height: 415px;
 	position: relative;
-	margin-top: 80px; 
+	/* margin-top: 80px; */ 
 	background-image: url("../img/map-group.png");
-	background-position: 50% 50%;
-	padding-top: 55px;
-	margin-bottom: 70px;
+	background-position: 50% 0%;
+	/* padding-top: 55px; */
+	/* margin-bottom: 70px; */
 }
 
 .contacts {
   width: 320px;
   background-color: #ffffff;
   box-sizing: border-box;
-  padding-top: 34px;
+  padding-top: 32px;
   padding-left: 51px;
-  padding-bottom: 47px;
+  padding-bottom: 45px;
   display: inline-block;
-  padding-bottom: 49px;
+  margin-top: 55px;
 }
 
 .contact-title {
@@ -658,7 +670,7 @@ a {
   font-weight: bold;
   text-transform: uppercase;
 	color: #000000;
-	margin-bottom: 23px;
+	margin-bottom: 25px;
 }
 
 .contacts .contact-address-item {
@@ -668,7 +680,7 @@ a {
 
 .contact-phone {
 	white-space: pre;
-	margin-top: 14px;
+	margin-top: 12px;
 	margin-bottom: 34px;
 }
 
@@ -786,7 +798,7 @@ a {
 
 .modal {
 	position: fixed;
-	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 20px 55px rgba(0, 0, 0, 0.7);
 }
 
 .modal-window {
@@ -802,7 +814,7 @@ a {
 
 .modal h2 {
 	position: absolute;
-	top: 43px;
+	top: 35px;
 	left: 90px;
 	font-weight: bold;
 	font-size: 45px;
@@ -812,7 +824,7 @@ a {
 
 .modal-close {
   position: absolute;
-  top: 93px;
+  top: 80px;
   right: 78px;
   width: 25px;
   height: 25px; 
@@ -844,7 +856,7 @@ a {
 
 .input-name label {
 	position: absolute;
-	top: 170px;
+	top: 155px;
 	left: 90px;
 	font-weight: bold;
 	font-size: 16px;
@@ -862,20 +874,20 @@ input:valid {
 
 .input-name input {
 	position: absolute;
-	top: 195px;
+	top: 180px;
 	left: 90px;
 	width: 353px;
 	height: 50px;
 	padding-left: 10px;
-	border: 2px solid #000000;
-	opacity: 0.3;
+	border: 2px solid #444444;
+	opacity: 0.2;
 	border-radius: 3px;
 }
 
 .input-email label {
 	display: inline-block;
 	position: absolute;
-	top: 170px;
+	top: 155px;
 	left: 505px;
 	font-weight: bold;
 	font-size: 16px;
@@ -888,17 +900,17 @@ input:valid {
 	width: 353px;
 	height: 50px;
 	position: absolute;
-	top: 195px;
+	top: 180px;
 	left: 505px;
 	padding-left: 10px;
-	border: 2px solid #000000;
-	opacity: 0.3;
+	border: 2px solid #444444;
+	opacity: 0.2;
 	border-radius: 3px;
 }
 
 .message label {
 	position: absolute;
-	top: 295px;
+	top: 270px;
 	left: 90px;
 	font-weight: bold;
 	font-size: 16px;
@@ -908,32 +920,35 @@ input:valid {
 
 .message textarea {
 	position: absolute;
-	top: 320px;
+	top: 295px;
 	left: 90px;
+	width: 767px;
+	height: 110px;
 	padding-top: 10px;
 	padding-left: 10px;
 	padding-right: 0;
-	border: 2px solid #000000;
-	opacity: 0.3;
+	border: 2px solid #444444;
+	opacity: 0.2;
 	border-radius: 3px;
 }
 
 .input-name input:hover,
 .input-email input:hover,
 .message textarea:hover  {
-	opacity: 0.5;
+	opacity: 0.3;
 }
 
 .input-name input:focus,
 .input-email input:focus,
 .message textarea:focus {
 	opacity: 1;
+	color: #000000;
 	outline: none;
 }
  
 .modal-window .btn-send {
 	position: absolute;
-	top: 470px;
+	top: 460px;
 	left: 90px;
   font-size: 16px;
   line-height: 18px;
@@ -969,7 +984,7 @@ input:valid {
  	text-align: center;
  	color: #000000;
  	margin-left: 0px;
- 	margin-top: 61px;
+ 	margin-top: 60px;
  	font-weight: 400;
  }
 
@@ -985,12 +1000,10 @@ input:valid {
   padding: 0;
   border: none;
   width: 260px;
-  margin-bottom: 50px; 
 } 
 
 .range-filter {
   width: 260px;
-  margin-top: 44px;
 }
 
 .filter-item legend {
@@ -999,6 +1012,7 @@ input:valid {
   text-transform: uppercase;
   font-weight: 700;
   color: #000000;
+  margin-bottom: 44px;
 }
 
 .range-controls {
@@ -1043,7 +1057,7 @@ input:valid {
   width: 4px;
   height: 4px;
   background-image: url("../img/filter-button.svg");
-  background-position: 50% 50%;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 0;
 }
@@ -1054,13 +1068,14 @@ input:valid {
   width: 4px;
   height: 4px;
   background-image: url("../img/filter-button.svg");
-  background-position: 50% 50%;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 0;
 }
 
 .price-controls {
   font-size: 0;
+  margin-bottom: 35px;
 }
 
 .price-controls label {
@@ -1091,9 +1106,8 @@ input:valid {
 	width: 265px;
 }
 
-.filter-grid,
-.filter-features {
-  margin-bottom: 50px;
+.filter-grid {
+  margin-bottom: 44px;
 }
 
 .filter-grid ul,
@@ -1104,8 +1118,7 @@ input:valid {
 }
 
 .filter-grid h3 {
-	margin-top: 53px;
-	margin-bottom: 13px;
+	margin-bottom: 14px;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 30px;
@@ -1113,9 +1126,12 @@ input:valid {
 	text-transform: uppercase;
 }
 
+.filter-features {
+  margin-bottom: 46px;
+}
+
 .filter-features h3 {
-	margin-top: -6px;
-	margin-bottom: 13px;
+	margin-bottom: 14px;
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 30px;
@@ -1125,20 +1141,26 @@ input:valid {
 
 .filter-option {
   margin-bottom: 16px;
-  padding-left: 47px;
+  margin-left: 38px;
 }
 
 .filter-option label {
   position: relative;
   display: block;
   cursor: pointer;
+  color: #283136;
+  opacity: 0.7;
 }
 
-.filter-input + label {
+.filter-input {
+  color: #283136;
+  opacity: 0.5;
+}
+
+/* .filter-input + label {
 	color: #283136;
   opacity: 0.7;
-  margin-left: -10px;
-}
+} */
 
 .filter-input:hover + label,
 .filter-input:focus + label {
@@ -1160,7 +1182,6 @@ input:valid {
   background-size: 25px;
   background-color: #ffffff;
 }
-
 
 .filter-input:disabled + label {
   color: #283136;
@@ -1215,7 +1236,6 @@ input:valid {
   display: block;
   width: 0px;
   padding: 17px 170px 15px 90px;
-  margin-top: -2px;
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -1247,8 +1267,9 @@ input:valid {
 }
 
 .sorting {
+	display: flex;
   min-width: 360px;
-  margin-bottom: -44px;
+  margin-bottom: 33px;
 }
 
 .sorting h3 {
@@ -1260,19 +1281,16 @@ input:valid {
 	color: #000000;
 	text-transform: uppercase;
 	margin-top: 0; 
-	margin-bottom: 30px; 
-	margin-left: 4px;
+	margin-left: 6px; 
+	margin-right: 266px;
 }
 
 .sorting-list {
   display: flex;
-  justify-content: center; 
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
-  margin-top: -55px; 
-  margin-bottom: 80px;
-  margin-left: 342px;
+  margin-top: 4px; 
   list-style: none;
   text-transform: uppercase;
 } 
@@ -1317,27 +1335,26 @@ input:valid {
 
 .icons a {
 	position: absolute;
-	top: -99px;
-	left: 680px;  
+	top: 11px;
+	left: 25px;  
 	width: 10px;
 	height: 10px;
-  padding-left: 89px; 
   background-image: url("../img/icon-down-dir.svg");
-  background-position: 50% 50%;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 10px;
 } 
 
 .icons .icon-up {
 	position: absolute;
-	top: -99px;
-	left: 754px;  
+	top: 11px;
+	left: 52px;  
 	width: 10px;
 	height: 10;
 	opacity: 0.3;
 	padding-left: 0px;
   background-image: url("../img/icon-up-dir.svg");
-  background-position: 50% 50%;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 10px;
 } 
@@ -1362,38 +1379,24 @@ input:valid {
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	margin-left: 6px;
+	margin-bottom: 27px;
 }
  
-.catalog-list:nth-child(2n) {
-	display: flex;
-	justify-content: space-between;
-	align-content: stretch;
-	flex-wrap: wrap;
-} 
-
 .catalog-item {
   width: 360px;
-  margin-right: 40px;
-  margin-bottom: -6px; 
+  height: 616px;
   position: relative;
+  margin-bottom: 33px;
+  box-sizing: border-box;
 }
-
-.catalog-item:nth-child(2n) {
-  margin-right: 5px;
-}
-
-.catalog-item-image a {
-	margin-left: 5px;
-} 
 
 .catalog-item-header {
 	display: flex;
 	width: 360px;
 	height: 40px;
-	margin-left: 5px; 
-	margin-bottom: -16px;
 	background-image: url("../img/browser.svg");
-  background-position: 50% 50%;
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 360px;
   opacity: 0.2;
@@ -1401,29 +1404,24 @@ input:valid {
 
 .catalog-item-header:hover {
 	opacity: 1;
-	box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.2),
-               0px 0px 10px rgba(0, 0, 0, 0.2); 
 }
 
-.catalog-item-image a:hover {
-  display: block;
-  width: 360px;
-  box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.2),
-               0px 0px 10px rgba(0, 0, 0, 0.2); 
-} 
+.catalog-item:hover  {
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2),
+              0px 0px 10px rgba(0, 0, 0, 0.2);
+}
 
 /* ==============Декор рамка=========== */
 
 .catalog-item-price {
 	display: none;
-	position: absolute;
-	top: 400px;
-	left: 5px;
-	width: 360px;
-	min-height: 231px;
-	background-color: #eeeeee;
+  width: 360px;
+  min-height: 231px;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 385px;
   box-sizing: border-box;
-  padding-top: 20px; 
   text-align: center;
 }
 
@@ -1436,14 +1434,21 @@ input:valid {
   line-height: 30px;
   font-weight: bold;
   text-transform: uppercase;
-	color: #000000;
+  color: #000000;
+  padding-top: 9px;
+  margin-bottom: 0px;
+}
+
+.catalog-info-sedona {
+  line-height: 18px;
+  padding-bottom: 13px;
 }
 
 .btn-price {
   display: block;
-  width: 210px;
-  padding: 20px 0; 
-  margin-top: 20px;
+  width: 201px;
+  padding: 16px 0; 
+  margin-top: 0px;
   margin-left: 80px;
   font-size: 16px;
   line-height: 18px;
@@ -1457,12 +1462,22 @@ input:valid {
   border: none;
 }
 
+.btn-price:hover,
+.btn-price:focus {
+  background-color: #e74246;
+}
+
+.btn-price:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
+
 /* ===============Кнопки пагинации===========*/
 
 .pagination-buttons {
-  margin-top: 44px;
   margin-left: 8px;
-  margin-bottom: -23px;
+  margin-bottom: 59px;
 }
 
 .pagination-list {
@@ -1486,8 +1501,8 @@ input:valid {
   padding: 14px 21px; 
   color: #000000;
   background-color: #eeeeee;
-  font-weight: bold;
-  border-radius: 3%;
+  font-weight: 400;
+  border-radius: 3px;
 }
 
 .pagination-item:not(:first-child) a:hover {
