@@ -961,6 +961,17 @@ input:valid {
   border: none;
   cursor: pointer;
 }
+
+.btn-send:hover,
+.btn-send:focus {
+  background-color: #e74246;
+}
+
+.btn-send:active {
+  background-color: #d7373b;
+  color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
+}
  
 /* =============Страница Каталога============ */
 
