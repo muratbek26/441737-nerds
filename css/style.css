@@ -701,6 +701,7 @@ a {
 .contacts .contact-address-item {
   line-height: 20px;
   margin-bottom: 0px;
+  padding-right: 65px;
 }
 
 .contact-phone {
